@@ -1,0 +1,134 @@
+[
+  {
+    "id": "australian-open",
+    "name": "Australian Open",
+    "nameJa": "全豪オープン",
+    "surface": "ハード (グリーンセット)",
+    "city": "メルボルン, オーストラリア 🇦🇺",
+    "venue": "メルボルン・パーク",
+    "month": "1月中旬〜下旬",
+    "description": "シーズン最初のグランドスラム。「ハッピー・スラム」の愛称で親しまれ、真夏の南半球で開催。開閉式屋根を備えたコートが多く、極暑対策のヒートルールが特徴。",
+    "recentChampions": [
+      {
+        "year": 2024,
+        "men": "ヤニック・シナー 🇮🇹",
+        "women": "アリーナ・サバレンカ 🏳️",
+        "wheelchairMen": "小田 凱人 🇯🇵",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱"
+      },
+      {
+        "year": 2023,
+        "men": "ノバク・ジョコビッチ 🇷🇸",
+        "women": "アリーナ・サバレンカ 🏳️",
+        "wheelchairMen": "アルフィー・ヒューエット 🇬🇧",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱"
+      },
+      {
+        "year": 2022,
+        "men": "ラファエル・ナダル 🇪🇸",
+        "women": "アシュリー・バーティ 🇦🇺",
+        "wheelchairMen": "国枝 慎吾 🇯🇵",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱"
+      }
+    ]
+  },
+  {
+    "id": "french-open",
+    "name": "Roland Garros (French Open)",
+    "nameJa": "全仏オープン (ローラン・ギャロス)",
+    "surface": "クレー (赤土)",
+    "city": "パリ, フランス 🇫🇷",
+    "venue": "スタッド・ローラン・ギャロス",
+    "month": "5月下旬〜6月上旬",
+    "description": "赤土のサーフェスで行われる唯一のグランドスラム。球足が遅く大きく弾むため、強靭なフィジカルと忍耐力、ドロップショットなどの戦術が試される最も過酷な大会。",
+    "recentChampions": [
+      {
+        "year": 2024,
+        "men": "カルロス・アルカラス 🇪🇸",
+        "women": "イガ・シフィオンテク 🇵🇱",
+        "wheelchairMen": "小田 凱人 🇯🇵",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱 (上地結衣 複V)"
+      },
+      {
+        "year": 2023,
+        "men": "ノバク・ジョコビッチ 🇷🇸",
+        "women": "イガ・シフィオンテク 🇵🇱",
+        "wheelchairMen": "小田 凱人 🇯🇵",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱 (加藤未唯 混合複V)"
+      },
+      {
+        "year": 2022,
+        "men": "ラファエル・ナダル 🇪🇸",
+        "women": "イガ・シフィオンテク 🇵🇱",
+        "wheelchairMen": "国枝 慎吾 🇯🇵",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱 (柴原瑛菜 混合複V)"
+      }
+    ]
+  },
+  {
+    "id": "wimbledon",
+    "name": "The Championships, Wimbledon",
+    "nameJa": "ウィンブルドン選手権",
+    "surface": "グラス (天然芝)",
+    "city": "ロンドン, 英国 🇬🇧",
+    "venue": "オールイングランド・ローンテニス・アンド・クローケー・クラブ",
+    "month": "7月上旬",
+    "description": "1877年創設、世界最古にして最も格式高いテニスの聖地。伝統として白一色のウェア着用が義務づけられる。芝特有の低く滑るバウンドと超高速ラリーが醍醐味。",
+    "recentChampions": [
+      {
+        "year": 2024,
+        "men": "カルロス・アルカラス 🇪🇸",
+        "women": "バルボラ・クレイチコバ 🇨🇿",
+        "wheelchairMen": "アルフィー・ヒューエット 🇬🇧",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱"
+      },
+      {
+        "year": 2023,
+        "men": "カルロス・アルカラス 🇪🇸",
+        "women": "マルケタ・ボンドロウソバ 🇨🇿",
+        "wheelchairMen": "小田 凱人 🇯🇵",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱"
+      },
+      {
+        "year": 2022,
+        "men": "ノバク・ジョコビッチ 🇷🇸",
+        "women": "エレーナ・ルバキナ 🇰🇿",
+        "wheelchairMen": "国枝 慎吾 🇯🇵 (生涯GS達成)",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱"
+      }
+    ]
+  },
+  {
+    "id": "us-open",
+    "name": "US Open",
+    "nameJa": "全米オープン",
+    "surface": "ハード (レイコールド)",
+    "city": "ニューヨーク, アメリカ 🇺🇸",
+    "venue": "USTAビリー・ジーン・キング・ナショナル・テニス・センター",
+    "month": "8月下旬〜9月上旬",
+    "description": "シーズン最後を締めくくる熱狂と興奮のエンターテインメント・スラム。世界最大規模のアーサー・アッシュ・スタジアム（2万3000人収容）で行われるナイトセッションは圧巻。",
+    "recentChampions": [
+      {
+        "year": 2024,
+        "men": "ヤニック・シナー 🇮🇹",
+        "women": "アリーナ・サバレンカ 🏳️",
+        "wheelchairMen": "（パラリンピック年開催方式）",
+        "wheelchairWomen": "（上地結衣 複V）"
+      },
+      {
+        "year": 2023,
+        "men": "ノバク・ジョコビッチ 🇷🇸",
+        "women": "ココ・ガウフ 🇺🇸",
+        "wheelchairMen": "アルフィー・ヒューエット 🇬🇧",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱"
+      },
+      {
+        "year": 2022,
+        "men": "カルロス・アルカラス 🇪🇸",
+        "women": "イガ・シフィオンテク 🇵🇱",
+        "wheelchairMen": "アルフィー・ヒューエット 🇬🇧",
+        "wheelchairWomen": "ディーデ・デフロート 🇳🇱"
+      }
+    ]
+  }
+]

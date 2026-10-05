@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>データ管理・更新 | テニストラッカー</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 text-xs min-h-screen">
+  <header class="bg-slate-900 text-white p-4 shadow">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="../index.html" class="text-slate-400 hover:text-white flex items-center gap-1 font-semibold">
+          ← トラッカー画面に戻る
+        </a>
+        <h1 class="text-base font-bold">🎾 選手データ編集・更新コンソール</h1>
+      </div>
+      <div class="flex items-center gap-2">
+        <button id="export-btn" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3 py-1.5 rounded shadow">
+          JSONダウンロード
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto p-4 sm:p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- 左ペイン：カテゴリ選択＆選手一覧 -->
+    <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 flex flex-col h-[85vh]">
+      <div class="mb-3 space-y-2">
+        <label class="block font-bold text-slate-700">カテゴリ選択</label>
+        <select id="admin-category-select" class="w-full border border-slate-300 rounded p-2 text-xs font-semibold">
+          <option value="atp_singles">男子シングルス (ATP)</option>
+          <option value="wta_singles">女子シングルス (WTA)</option>
+          <option value="wheelchair">車いすテニス (Open)</option>
+          <option value="atp_doubles">男子ダブルス (ATP)</option>
+          <option value="wta_doubles">女子ダブルス (WTA)</option>
+        </select>
+        <input type="text" id="admin-search" placeholder="選手を絞り込み..." class="w-full border border-slate-300 rounded p-2 text-xs">
+        <button id="add-new-player-btn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded transition-colors">
+          ＋ 新規選手を追加
+        </button>
+      </div>
+
+      <div class="flex-1 overflow-y-auto divide-y divide-slate-100 border border-slate-200 rounded" id="admin-player-list">
+        <!-- JSで一覧を描画 -->
+      </div>
+    </div>
+
+    <!-- 右ペイン：編集フォーム -->
+    <div class="md:col-span-2 bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex flex-col h-[85vh] overflow-y-auto">
+      <h2 id="form-title" class="text-base font-bold text-slate-900 border-b border-slate-100 pb-3 mb-4">
+        選手情報の編集
+      </h2>
+
+      <form id="player-edit-form" class="space-y-4">
+        <input type="hidden" id="edit-id">
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">ランキング順位 *</label>
+            <input type="number" id="edit-rank" required class="w-full border border-slate-300 rounded p-2 font-bold">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">獲得ポイント</label>
+            <input type="number" id="edit-points" class="w-full border border-slate-300 rounded p-2">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">自己最高ランキング</label>
+            <input type="number" id="edit-careerHigh" class="w-full border border-slate-300 rounded p-2">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">選手名 (日本語) *</label>
+            <input type="text" id="edit-nameJa" required class="w-full border border-slate-300 rounded p-2">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">選手名 (英語アルファベット) *</label>
+            <input type="text" id="edit-name" required class="w-full border border-slate-300 rounded p-2">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">国籍コード (例: JPN, ITA, USA)</label>
+            <input type="text" id="edit-country" class="w-full border border-slate-300 rounded p-2">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">国名日本語 (例: 日本, イタリア)</label>
+            <input type="text" id="edit-countryJa" class="w-full border border-slate-300 rounded p-2">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">国旗絵文字 (例: 🇯🇵, 🇮🇹)</label>
+            <input type="text" id="edit-flag" class="w-full border border-slate-300 rounded p-2">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-4 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">年齢</label>
+            <input type="number" id="edit-age" class="w-full border border-slate-300 rounded p-2">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">身長</label>
+            <input type="text" id="edit-height" placeholder="185 cm" class="w-full border border-slate-300 rounded p-2">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-600 mb-1">利き手 / 打ち方</label>
+            <input type="text" id="edit-plays" placeholder="右利き / 両手打ち" class="w-full border border-slate-300 rounded p-2">
+          </div>
+          <div class="flex items-center pt-5">
+            <label class="inline-flex items-center gap-1.5 cursor-pointer font-bold text-red-600">
+              <input type="checkbox" id="edit-isJapanese" class="w-4 h-4 rounded text-red-600">
+              <span>🇯🇵 日本人選手</span>
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <label class="block font-semibold text-slate-600 mb-1">プレースタイル</label>
+          <input type="text" id="edit-style" placeholder="アグレッシブ・ベースライナー、サーブ＆ボレー 等" class="w-full border border-slate-300 rounded p-2">
+        </div>
+
+        <div>
+          <label class="block font-semibold text-slate-600 mb-1">選手概要・昔のファン向け見どころ解説</label>
+          <textarea id="edit-bioSummary" rows="3" class="w-full border border-slate-300 rounded p-2" placeholder="プレースタイルの特徴、往年の名選手との比較、主要な功績など"></textarea>
+        </div>
+
+        <div class="border-t border-slate-200 pt-3">
+          <label class="block font-bold text-slate-700 mb-2">🏆 四大大会の戦績</label>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+            <div>
+              <span class="text-slate-500 text-[10px]">全豪オープン</span>
+              <input type="text" id="edit-gs-ao" placeholder="優勝 (2024)" class="w-full border border-slate-300 rounded p-1.5">
+            </div>
+            <div>
+              <span class="text-slate-500 text-[10px]">全仏オープン</span>
+              <input type="text" id="edit-gs-rg" placeholder="ベスト4" class="w-full border border-slate-300 rounded p-1.5">
+            </div>
+            <div>
+              <span class="text-slate-500 text-[10px]">ウィンブルドン</span>
+              <input type="text" id="edit-gs-wb" placeholder="優勝" class="w-full border border-slate-300 rounded p-1.5">
+            </div>
+            <div>
+              <span class="text-slate-500 text-[10px]">全米オープン</span>
+              <input type="text" id="edit-gs-us" placeholder="準優勝" class="w-full border border-slate-300 rounded p-1.5">
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-4 border-t border-slate-200 flex justify-end gap-2">
+          <button type="submit" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-2 rounded shadow">
+            この選手情報を保存
+          </button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script type="module">
+    import { tennisStore } from "../js/data-store.js";
+    import { firebaseManager } from "../js/firebase-config.js";
+
+    let currentCategory = "atp_singles";
+    let selectedPlayer = null;
+
+    const catSelect = document.getElementById("admin-category-select");
+    const searchInput = document.getElementById("admin-search");
+    const playerListEl = document.getElementById("admin-player-list");
+    const form = document.getElementById("player-edit-form");
+    const addNewBtn = document.getElementById("add-new-player-btn");
+    const exportBtn = document.getElementById("export-btn");
+
+    async function initAdmin() {
+      await tennisStore.init();
+      loadCategoryList();
+
+      catSelect.addEventListener("change", (e) => {
+        currentCategory = e.target.value;
+        loadCategoryList();
+      });
+
+      searchInput.addEventListener("input", () => {
+        renderList();
+      });
+
+      addNewBtn.addEventListener("click", () => {
+        resetForm();
+      });
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        savePlayer();
+      });
+
+      exportBtn.addEventListener("click", () => {
+        tennisStore.exportCategoryJson(currentCategory);
+      });
+    }
+
+    function loadCategoryList() {
+      renderList();
+      if (tennisStore.categories[currentCategory].data.length > 0) {
+        selectPlayer(tennisStore.categories[currentCategory].data[0]);
+      } else {
+        resetForm();
+      }
+    }
+
+    function renderList() {
+      const q = searchInput.value.toLowerCase().trim();
+      const list = tennisStore.categories[currentCategory].data.filter(p => {
+        if (!q) return true;
+        return (p.name && p.name.toLowerCase().includes(q)) ||
+               (p.nameJa && p.nameJa.toLowerCase().includes(q)) ||
+               (p.country && p.country.toLowerCase().includes(q));
+      });
+
+      playerListEl.innerHTML = "";
+      list.forEach(p => {
+        const item = document.createElement("div");
+        item.className = `p-2.5 hover:bg-slate-50 cursor-pointer flex items-center justify-between transition-colors ${selectedPlayer && selectedPlayer.id === p.id ? 'bg-emerald-50 border-l-4 border-emerald-600' : ''}`;
+        item.innerHTML = `
+          <div>
+            <div class="font-bold text-slate-800 flex items-center gap-1.5">
+              <span class="text-slate-400">#${p.rank}</span>
+              <span>${p.flag || ''}</span>
+              <span>${p.nameJa || p.name}</span>
+              ${p.isJapanese ? '<span class="text-[10px] text-red-600 font-bold">JP</span>' : ''}
+            </div>
+            <div class="text-[10px] text-slate-400">${p.name}</div>
+          </div>
+          <span class="text-[10px] font-mono text-slate-400">${p.points ? p.points.toLocaleString() : ''}</span>
+        `;
+        item.addEventListener("click", () => selectPlayer(p));
+        playerListEl.appendChild(item);
+      });
+    }
+
+    function selectPlayer(p) {
+      selectedPlayer = p;
+      document.getElementById("form-title").textContent = `選手情報の編集: ${p.nameJa || p.name}`;
+      document.getElementById("edit-id").value = p.id || "";
+      document.getElementById("edit-rank").value = p.rank || "";
+      document.getElementById("edit-points").value = p.points || "";
+      document.getElementById("edit-careerHigh").value = p.careerHigh || "";
+      document.getElementById("edit-nameJa").value = p.nameJa || "";
+      document.getElementById("edit-name").value = p.name || "";
+      document.getElementById("edit-country").value = p.country || "";
+      document.getElementById("edit-countryJa").value = p.countryJa || "";
+      document.getElementById("edit-flag").value = p.flag || "";
+      document.getElementById("edit-age").value = p.age || "";
+      document.getElementById("edit-height").value = p.height || "";
+      document.getElementById("edit-plays").value = p.plays || "";
+      document.getElementById("edit-isJapanese").checked = Boolean(p.isJapanese);
+      document.getElementById("edit-style").value = p.style || "";
+      document.getElementById("edit-bioSummary").value = p.bioSummary || "";
+
+      document.getElementById("edit-gs-ao").value = p.grandSlams?.australianOpen || "";
+      document.getElementById("edit-gs-rg").value = p.grandSlams?.frenchOpen || "";
+      document.getElementById("edit-gs-wb").value = p.grandSlams?.wimbledon || "";
+      document.getElementById("edit-gs-us").value = p.grandSlams?.usOpen || "";
+
+      renderList();
+    }
+
+    function resetForm() {
+      selectedPlayer = null;
+      document.getElementById("form-title").textContent = "新規選手の追加";
+      form.reset();
+      document.getElementById("edit-id").value = "";
+      renderList();
+    }
+
+    function savePlayer() {
+      const id = document.getElementById("edit-id").value || 
+                 document.getElementById("edit-name").value.toLowerCase().replace(/[^a-z0-9]/g, "-");
+      
+      const player = {
+        id: id,
+        rank: parseInt(document.getElementById("edit-rank").value, 10),
+        points: parseInt(document.getElementById("edit-points").value, 10) || 0,
+        careerHigh: parseInt(document.getElementById("edit-careerHigh").value, 10) || null,
+        nameJa: document.getElementById("edit-nameJa").value.trim(),
+        name: document.getElementById("edit-name").value.trim(),
+        country: document.getElementById("edit-country").value.trim(),
+        countryJa: document.getElementById("edit-countryJa").value.trim(),
+        flag: document.getElementById("edit-flag").value.trim(),
+        age: parseInt(document.getElementById("edit-age").value, 10) || null,
+        height: document.getElementById("edit-height").value.trim(),
+        plays: document.getElementById("edit-plays").value.trim(),
+        isJapanese: document.getElementById("edit-isJapanese").checked,
+        style: document.getElementById("edit-style").value.trim(),
+        bioSummary: document.getElementById("edit-bioSummary").value.trim(),
+        grandSlams: {
+          australianOpen: document.getElementById("edit-gs-ao").value.trim(),
+          frenchOpen: document.getElementById("edit-gs-rg").value.trim(),
+          wimbledon: document.getElementById("edit-gs-wb").value.trim(),
+          usOpen: document.getElementById("edit-gs-us").value.trim()
+        }
+      };
+
+      tennisStore.updatePlayer(currentCategory, player);
+      alert("✅ 選手情報を保存しました！");
+      selectPlayer(player);
+    }
+
+    window.addEventListener("DOMContentLoaded", initAdmin);
+  </script>
+</body>
+</html>
