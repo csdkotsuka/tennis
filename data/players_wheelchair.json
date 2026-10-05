@@ -46,7 +46,38 @@
       }
     ],
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tokito_Oda_2023.jpg/480px-Tokito_Oda_2023.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/tokitooda_official/",
+      "twitter": "https://x.com/tokitooda"
+    },
+    "stories": [
+      {
+        "title": "9歳での骨肉腫を乗り越えて：国枝慎吾の背中を追った少年",
+        "source": "パラサポWEB",
+        "url": "https://www.parasapo.tokyo/topics/106308",
+        "summary": "愛知県一宮市出身。サッカー少年だった9歳の時に左脚の骨肉腫を発症し人工関節を入れる。病室で見たロンドンパラリンピックの国枝慎吾氏の金メダルに心を打たれ車いすテニスを開始。『病気になったからこそ世界一になれた』と語り、17歳で世界1位、18歳でパリパラリンピック金メダルを獲得した若きスーパースター。"
+      },
+      {
+        "title": "車いすテニスを最高にクールなスポーツへ",
+        "source": "GQ JAPAN",
+        "url": "https://www.gqjapan.jp/article/20240908-tokito-oda",
+        "summary": "ファッションや髪型、発言の一つひとつにこだわりを持ち、『車いすテニスを誰もが憧れるカッコいいスポーツにする』という強烈なプロ意識を持つ。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "小田凱人 パリパラリンピック金メダル獲得の瞬間＆超絶スーパーショット",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tokito+Oda+Paris+Paralympics+Final"
+      },
+      {
+        "title": "小田凱人の世界最速チェアワーク＆左腕スピン",
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/tag/tokitooda"
+      }
+    ]
   },
   {
     "id": "alfie-hewett",
@@ -83,7 +114,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アルフィー・ヒューエット プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Alfie+Hewett+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "martin-de-la-puente",
@@ -111,7 +152,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マルティン・デラプエンテ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Martin+de+la+Puente+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "gustavo-fernandez",
@@ -141,7 +192,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "グスタボ・フェルナンデス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Gustavo+Fernandez+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "gordon-reid",
@@ -170,7 +231,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ゴードン・リード プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Gordon+Reid+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "tomoya-tachi",
@@ -198,7 +269,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "三木 拓也 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Takuya+Miki+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "takashi-sanada",
@@ -216,7 +297,17 @@
     "bioSummary": "パラリンピック4大会連続出場のベテラン。強靭な精神力とスピード感あふれるプレーで世界のトップ戦線で活躍し続ける。",
     "style": "ベースライナー。力強いストロークと粘り強さ。",
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "眞田 卓 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Takashi+Sanada+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "daisuke-arai",
@@ -233,7 +324,17 @@
     "titles": 5,
     "bioSummary": "パラリンピック日本代表。正確なコントロールとスピードを生かした攻撃が光る。",
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "荒井 大輔 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Daisuke+Arai+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "yui-kamiji",
@@ -275,7 +376,27 @@
       }
     ],
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Yui_Kamiji_2016.jpg/480px-Yui_Kamiji_2016.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/kamijiyui.official/",
+      "twitter": "https://x.com/yui_kamiji"
+    },
+    "stories": [
+      {
+        "title": "悲願の金メダル：10代から世界の頂点を争い続けた努力の人",
+        "source": "NHK スポーツ",
+        "url": "https://www3.nhk.or.jp/sports/special/paralympic/athletes/kamiji-yui/",
+        "summary": "兵庫県明石市出身。先天性の潜在性二分脊椎症。11歳で車いすテニスと出会い、巧みなチェアワークとトップスピンロブを武器に世界ランク1位へ。絶対女王ディーデ・デフロートという巨大な壁と幾度も名勝負を繰り広げ、2024年パリパラリンピックで単複2冠の悲願を成し遂げた。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "上地結衣 パリパラリンピック単複2冠の軌跡＆芸術的ロブ",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Yui+Kamiji+Paris+Paralympic+Gold"
+      }
+    ]
   },
   {
     "id": "diede-de-groot",
@@ -317,7 +438,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ディーデ・デフロート プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Diede+de+Groot+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "aniek-van-koot",
@@ -346,7 +477,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アニーク・ファンクート プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Aniek+van+Koot+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "manami-tanaka",
@@ -375,7 +516,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "田中 愛美 (たなか まなみ) プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Manami+Tanaka+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "momoko-ohtani",
@@ -403,7 +554,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "大谷 桃子 (おおたに ももこ) プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Momoko+Ohtani+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "saki-takamuro",
@@ -420,7 +581,17 @@
     "titles": 4,
     "bioSummary": "東京パラ・パリパラ日本代表。堅実なストロークと粘り強さで世界ツアーで活躍。",
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "高室 冴綺 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Saki+Takamuro+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "shiori-funamizu",
@@ -437,7 +608,17 @@
     "titles": 3,
     "bioSummary": "若手成長株。スピードあるチェアワークと正確なショットで世界ランキング上昇中。",
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "船水 梓緒里 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Shiori+Funamizu+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "stephane-houdet",
@@ -454,7 +635,17 @@
     "titles": 24,
     "bioSummary": "50代を超えて世界の最前線で戦い続けるフランスのレジェンド。立膝乗りスタイルの第一人者。パラリンピック複金メダリスト。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ステファン・ウデ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Stephane+Houdet+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "joachim-gerard",
@@ -471,7 +662,17 @@
     "titles": 15,
     "bioSummary": "全豪・ウィンブルドン単王者。強烈なフラットサーブとフォアハンドの破壊力を持つベルギーのエース。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ヨアキム・ジェラード プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Joachim+Gerard+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "daniel-caverzaschi",
@@ -488,7 +689,17 @@
     "titles": 6,
     "bioSummary": "スペインのサウスポー。鋭いスピンショットと粘り強さでパリパラリンピックでも活躍。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ダニエル・カベルサッキ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Daniel+Caverzaschi+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "ruben-spaaragaren",
@@ -505,7 +716,17 @@
     "titles": 5,
     "bioSummary": "オランダの若手トップ。高い攻撃力と伸びやかなストロークが武器。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ルーベン・スパーガレン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Ruben+Spaargaren+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "casey-ratzlaff",
@@ -522,7 +743,17 @@
     "titles": 4,
     "bioSummary": "アメリカ男子車いすテニス界のNo.1。パワフルなプレーでツアー上位の常連。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ケーシー・ラッツラフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Casey+Ratzlaff+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "maikel-scheffers",
@@ -539,7 +770,17 @@
     "titles": 18,
     "bioSummary": "元世界1位、全豪・全仏王者。長年にわたり国枝慎吾らと名勝負を繰り広げた名手。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マイケル・シェフェルス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Maikel+Scheffers+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "zhu-zhenzhen",
@@ -556,7 +797,17 @@
     "titles": 12,
     "bioSummary": "パリパラリンピック単銅メダリスト。強靭なスタミナと鋭いストロークで世界の強豪を脅かす中国のエース。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "朱 珍珍 (ジュ・ジェンジエン) プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Zhu+Zhenzhen+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "li-xiaohui",
@@ -573,7 +824,17 @@
     "titles": 8,
     "bioSummary": "急成長を遂げる中国の若手トップランカー。パリパラリンピックダブルスで銀メダルを獲得。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "李 暁輝 (リ・シャオフイ) プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Li+Xiaohui+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "lucy-shuker",
@@ -590,7 +851,17 @@
     "titles": 15,
     "bioSummary": "パラリンピック複数メダリスト。イギリス女子車いすテニスを長年リードするシンボル的存在。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ルーシー・シュッカー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Lucy+Shuker+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "kgothatso-montjane",
@@ -606,7 +877,17 @@
     "titles": 16,
     "bioSummary": "全仏・全米ダブルス王者（上地結衣ペア）。アフリカ大陸初となる車いすグランドスラム覇者。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "コガタツォ・モンジェイン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Kgothatso+Montjane+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "andy-lapthorne",
@@ -623,7 +904,17 @@
     "titles": 14,
     "bioSummary": "クァード部門通算グランドスラム複数優勝。英国の名門クイーンズ・クラブでもプレーする人気選手。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アンディ・ラプソーン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Andy+Lapthorne+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "david-wagner",
@@ -640,7 +931,17 @@
     "titles": 38,
     "bioSummary": "クァード部門の生ける伝説。パラリンピックメダル8個、GSタイトル多数を誇るアメリカの至宝。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "デビッド・ワグナー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=David+Wagner+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "guy-sasson",
@@ -657,7 +958,17 @@
     "titles": 6,
     "bioSummary": "2024年全仏オープン・クァード単王者。パリパラリンピックでも銅メダルを獲得。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ガイ・サソン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Guy+Sasson+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "sam-schroder",
@@ -674,7 +985,17 @@
     "titles": 20,
     "bioSummary": "クァード部門の世界王者。四大大会タイトルを複数獲得し、卓越したテクニックで部門を牽引。",
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "サム・スヒローダー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sam+Schroder+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "niels-vink",
@@ -698,7 +1019,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ニールス・フィンク プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Niels+Vink+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "koji-sugeno",
@@ -715,6 +1046,16 @@
     "titles": 10,
     "bioSummary": "東京パラ・複銅メダリスト。正確なコントロールと豊富な経験で世界のクァード部門を牽引する日本のレジェンド。",
     "isJapanese": true,
-    "category": "wheelchair"
+    "category": "wheelchair",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "菅野 浩二 (すがの こうじ) プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Koji+Sugeno+tennis+highlights"
+      }
+    ]
   }
 ]

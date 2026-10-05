@@ -127,30 +127,137 @@
           <textarea id="edit-bioSummary" rows="3" class="w-full border border-slate-300 rounded p-2" placeholder="プレースタイルの特徴、往年の名選手との比較、主要な功績など"></textarea>
         </div>
 
-        <div class="border-t border-slate-200 pt-3">
-          <label class="block font-bold text-slate-700 mb-2">🏆 四大大会の戦績</label>
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+        <!-- 顔写真URL & プレビュー -->
+        <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
+          <label class="block font-bold text-slate-700 mb-1">📸 選手の顔写真 (画像URL)</label>
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 rounded-full bg-slate-200 border-2 border-emerald-500 overflow-hidden flex-shrink-0 flex items-center justify-center">
+              <img id="image-preview" src="" alt="プレビュー" class="w-full h-full object-cover hidden">
+              <span id="image-placeholder" class="text-2xl">👤</span>
+            </div>
+            <div class="flex-1">
+              <input type="url" id="edit-imageUrl" placeholder="https://example.com/player.jpg (Wikipedia等の画像URL)" class="w-full border border-slate-300 rounded p-2 text-xs">
+              <p class="text-[10px] text-slate-400 mt-1">※ Wikipediaや公式SNS等の公開画像URLを貼り付けると顔写真として表示されます。</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SNSアカウント -->
+        <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
+          <label class="block font-bold text-slate-700 mb-2">📱 SNSアカウント・公式サイト</label>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
             <div>
-              <span class="text-slate-500 text-[10px]">全豪オープン</span>
-              <input type="text" id="edit-gs-ao" placeholder="優勝 (2024)" class="w-full border border-slate-300 rounded p-1.5">
+              <span class="text-slate-500 text-[10px] font-semibold">Instagram URL</span>
+              <input type="url" id="edit-sns-instagram" placeholder="https://instagram.com/..." class="w-full border border-slate-300 rounded p-1.5 text-xs">
             </div>
             <div>
-              <span class="text-slate-500 text-[10px]">全仏オープン</span>
-              <input type="text" id="edit-gs-rg" placeholder="ベスト4" class="w-full border border-slate-300 rounded p-1.5">
+              <span class="text-slate-500 text-[10px] font-semibold">X (Twitter) URL</span>
+              <input type="url" id="edit-sns-twitter" placeholder="https://x.com/..." class="w-full border border-slate-300 rounded p-1.5 text-xs">
             </div>
             <div>
-              <span class="text-slate-500 text-[10px]">ウィンブルドン</span>
-              <input type="text" id="edit-gs-wb" placeholder="優勝" class="w-full border border-slate-300 rounded p-1.5">
+              <span class="text-slate-500 text-[10px] font-semibold">YouTubeチャンネル等</span>
+              <input type="url" id="edit-sns-youtube" placeholder="https://youtube.com/@..." class="w-full border border-slate-300 rounded p-1.5 text-xs">
+            </div>
+          </div>
+        </div>
+
+        <!-- 生い立ち・人となりが分かる記事 -->
+        <div class="bg-amber-50/60 p-3 rounded-lg border border-amber-200">
+          <div class="flex items-center justify-between mb-2">
+            <label class="block font-bold text-amber-900">📖 生い立ち・人となりが分かる記事 (概要 ＆ リンク)</label>
+            <span class="text-[10px] text-amber-700">記事の概要をまとめるとファンが共感しやすくなります</span>
+          </div>
+
+          <!-- 記事1 -->
+          <div class="bg-white p-2.5 rounded border border-amber-100 mb-2 space-y-1.5">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+              <div class="sm:col-span-2">
+                <span class="text-[10px] text-slate-500 font-semibold">記事見出し / タイトル</span>
+                <input type="text" id="edit-story1-title" placeholder="例: 9歳での骨肉腫を乗り越えて：国枝慎吾の背中を追った少年" class="w-full border border-slate-300 rounded p-1.5 text-xs">
+              </div>
+              <div>
+                <span class="text-[10px] text-slate-500 font-semibold">掲載元メディア (Number等)</span>
+                <input type="text" id="edit-story1-source" placeholder="例: Number Web" class="w-full border border-slate-300 rounded p-1.5 text-xs">
+              </div>
             </div>
             <div>
-              <span class="text-slate-500 text-[10px]">全米オープン</span>
-              <input type="text" id="edit-gs-us" placeholder="準優勝" class="w-full border border-slate-300 rounded p-1.5">
+              <span class="text-[10px] text-slate-500 font-semibold">記事リンクURL</span>
+              <input type="url" id="edit-story1-url" placeholder="https://..." class="w-full border border-slate-300 rounded p-1.5 text-xs">
+            </div>
+            <div>
+              <span class="text-[10px] text-slate-500 font-semibold">生い立ち・エピソードの要約（人となりが伝わる概要）</span>
+              <textarea id="edit-story1-summary" rows="2" placeholder="幼少期のエピソード、家族との関係、性格、人柄など" class="w-full border border-slate-300 rounded p-1.5 text-xs"></textarea>
+            </div>
+          </div>
+
+          <!-- 記事2 -->
+          <div class="bg-white p-2.5 rounded border border-amber-100 space-y-1.5">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+              <div class="sm:col-span-2">
+                <span class="text-[10px] text-slate-500 font-semibold">記事見出し / タイトル 2 (任意)</span>
+                <input type="text" id="edit-story2-title" placeholder="追加の記事タイトル" class="w-full border border-slate-300 rounded p-1.5 text-xs">
+              </div>
+              <div>
+                <span class="text-[10px] text-slate-500 font-semibold">掲載元メディア</span>
+                <input type="text" id="edit-story2-source" placeholder="メディア名" class="w-full border border-slate-300 rounded p-1.5 text-xs">
+              </div>
+            </div>
+            <div>
+              <span class="text-[10px] text-slate-500 font-semibold">記事リンクURL</span>
+              <input type="url" id="edit-story2-url" placeholder="https://..." class="w-full border border-slate-300 rounded p-1.5 text-xs">
+            </div>
+            <div>
+              <span class="text-[10px] text-slate-500 font-semibold">概要要約</span>
+              <textarea id="edit-story2-summary" rows="2" placeholder="概要要約" class="w-full border border-slate-300 rounded p-1.5 text-xs"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- プレー映像 (YouTube / TikTok) -->
+        <div class="bg-rose-50/60 p-3 rounded-lg border border-rose-200">
+          <label class="block font-bold text-rose-900 mb-2">🎥 プレー映像・ハイライト動画リンク (YouTube / TikTok)</label>
+          
+          <!-- 動画1 -->
+          <div class="grid grid-cols-1 sm:grid-cols-4 gap-2 mb-2 bg-white p-2 rounded border border-rose-100">
+            <div>
+              <span class="text-[10px] text-slate-500 font-semibold">プラットフォーム</span>
+              <select id="edit-video1-platform" class="w-full border border-slate-300 rounded p-1.5 text-xs">
+                <option value="YouTube">YouTube</option>
+                <option value="TikTok">TikTok</option>
+              </select>
+            </div>
+            <div class="sm:col-span-1">
+              <span class="text-[10px] text-slate-500 font-semibold">動画タイトル</span>
+              <input type="text" id="edit-video1-title" placeholder="例: スーパープレー集" class="w-full border border-slate-300 rounded p-1.5 text-xs">
+            </div>
+            <div class="sm:col-span-2">
+              <span class="text-[10px] text-slate-500 font-semibold">動画リンクURL</span>
+              <input type="url" id="edit-video1-url" placeholder="https://www.youtube.com/..." class="w-full border border-slate-300 rounded p-1.5 text-xs">
+            </div>
+          </div>
+
+          <!-- 動画2 -->
+          <div class="grid grid-cols-1 sm:grid-cols-4 gap-2 bg-white p-2 rounded border border-rose-100">
+            <div>
+              <span class="text-[10px] text-slate-500 font-semibold">プラットフォーム</span>
+              <select id="edit-video2-platform" class="w-full border border-slate-300 rounded p-1.5 text-xs">
+                <option value="TikTok">TikTok</option>
+                <option value="YouTube">YouTube</option>
+              </select>
+            </div>
+            <div class="sm:col-span-1">
+              <span class="text-[10px] text-slate-500 font-semibold">動画タイトル</span>
+              <input type="text" id="edit-video2-title" placeholder="例: TikTokハイライト" class="w-full border border-slate-300 rounded p-1.5 text-xs">
+            </div>
+            <div class="sm:col-span-2">
+              <span class="text-[10px] text-slate-500 font-semibold">動画リンクURL</span>
+              <input type="url" id="edit-video2-url" placeholder="https://www.tiktok.com/..." class="w-full border border-slate-300 rounded p-1.5 text-xs">
             </div>
           </div>
         </div>
 
         <div class="pt-4 border-t border-slate-200 flex justify-end gap-2">
-          <button type="submit" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-2 rounded shadow">
+          <button type="submit" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-2.5 rounded shadow text-sm transition-colors">
             この選手情報を保存
           </button>
         </div>
@@ -262,6 +369,39 @@
       document.getElementById("edit-gs-wb").value = p.grandSlams?.wimbledon || "";
       document.getElementById("edit-gs-us").value = p.grandSlams?.usOpen || "";
 
+      // 顔写真
+      document.getElementById("edit-imageUrl").value = p.imageUrl || "";
+      updateImagePreview(p.imageUrl);
+
+      // SNS
+      document.getElementById("edit-sns-instagram").value = p.sns?.instagram || "";
+      document.getElementById("edit-sns-twitter").value = p.sns?.twitter || "";
+      document.getElementById("edit-sns-youtube").value = p.sns?.youtube || "";
+
+      // 記事
+      const s1 = p.stories?.[0] || {};
+      document.getElementById("edit-story1-title").value = s1.title || "";
+      document.getElementById("edit-story1-source").value = s1.source || "";
+      document.getElementById("edit-story1-url").value = s1.url || "";
+      document.getElementById("edit-story1-summary").value = s1.summary || "";
+
+      const s2 = p.stories?.[1] || {};
+      document.getElementById("edit-story2-title").value = s2.title || "";
+      document.getElementById("edit-story2-source").value = s2.source || "";
+      document.getElementById("edit-story2-url").value = s2.url || "";
+      document.getElementById("edit-story2-summary").value = s2.summary || "";
+
+      // 動画
+      const v1 = p.videos?.[0] || {};
+      document.getElementById("edit-video1-platform").value = v1.platform || "YouTube";
+      document.getElementById("edit-video1-title").value = v1.title || "";
+      document.getElementById("edit-video1-url").value = v1.url || "";
+
+      const v2 = p.videos?.[1] || {};
+      document.getElementById("edit-video2-platform").value = v2.platform || "TikTok";
+      document.getElementById("edit-video2-title").value = v2.title || "";
+      document.getElementById("edit-video2-url").value = v2.url || "";
+
       renderList();
     }
 
@@ -270,12 +410,79 @@
       document.getElementById("form-title").textContent = "新規選手の追加";
       form.reset();
       document.getElementById("edit-id").value = "";
+      updateImagePreview("");
       renderList();
     }
+
+    function updateImagePreview(url) {
+      const preview = document.getElementById("image-preview");
+      const placeholder = document.getElementById("image-placeholder");
+      if (url && url.trim().length > 0) {
+        preview.src = url.trim();
+        preview.onload = () => {
+          preview.classList.remove("hidden");
+          placeholder.classList.add("hidden");
+        };
+        preview.onerror = () => {
+          preview.classList.add("hidden");
+          placeholder.classList.remove("hidden");
+        };
+      } else {
+        preview.src = "";
+        preview.classList.add("hidden");
+        placeholder.classList.remove("hidden");
+      }
+    }
+
+    document.getElementById("edit-imageUrl").addEventListener("input", (e) => {
+      updateImagePreview(e.target.value);
+    });
 
     function savePlayer() {
       const id = document.getElementById("edit-id").value || 
                  document.getElementById("edit-name").value.toLowerCase().replace(/[^a-z0-9]/g, "-");
+
+      // 記事配列
+      const stories = [];
+      const s1Title = document.getElementById("edit-story1-title").value.trim();
+      const s1Url = document.getElementById("edit-story1-url").value.trim();
+      if (s1Title || s1Url) {
+        stories.push({
+          title: s1Title,
+          source: document.getElementById("edit-story1-source").value.trim() || "Web",
+          url: s1Url,
+          summary: document.getElementById("edit-story1-summary").value.trim()
+        });
+      }
+      const s2Title = document.getElementById("edit-story2-title").value.trim();
+      const s2Url = document.getElementById("edit-story2-url").value.trim();
+      if (s2Title || s2Url) {
+        stories.push({
+          title: s2Title,
+          source: document.getElementById("edit-story2-source").value.trim() || "Web",
+          url: s2Url,
+          summary: document.getElementById("edit-story2-summary").value.trim()
+        });
+      }
+
+      // 動画配列
+      const videos = [];
+      const v1Url = document.getElementById("edit-video1-url").value.trim();
+      if (v1Url) {
+        videos.push({
+          platform: document.getElementById("edit-video1-platform").value,
+          title: document.getElementById("edit-video1-title").value.trim() || "ハイライト映像",
+          url: v1Url
+        });
+      }
+      const v2Url = document.getElementById("edit-video2-url").value.trim();
+      if (v2Url) {
+        videos.push({
+          platform: document.getElementById("edit-video2-platform").value,
+          title: document.getElementById("edit-video2-title").value.trim() || "ショート動画",
+          url: v2Url
+        });
+      }
       
       const player = {
         id: id,
@@ -293,6 +500,14 @@
         isJapanese: document.getElementById("edit-isJapanese").checked,
         style: document.getElementById("edit-style").value.trim(),
         bioSummary: document.getElementById("edit-bioSummary").value.trim(),
+        imageUrl: document.getElementById("edit-imageUrl").value.trim(),
+        sns: {
+          instagram: document.getElementById("edit-sns-instagram").value.trim(),
+          twitter: document.getElementById("edit-sns-twitter").value.trim(),
+          youtube: document.getElementById("edit-sns-youtube").value.trim()
+        },
+        stories: stories,
+        videos: videos,
         grandSlams: {
           australianOpen: document.getElementById("edit-gs-ao").value.trim(),
           frenchOpen: document.getElementById("edit-gs-rg").value.trim(),

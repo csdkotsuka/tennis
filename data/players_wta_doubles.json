@@ -11,7 +11,17 @@
     "age": 29,
     "careerHigh": 1,
     "bioSummary": "女子ダブルス通算グランドスラム9勝＆生涯ゴールデンスラム達成の史上最高ダブルスプレーヤーの一人。2024年は全仏（ガウフ組）とウィンブルドン（タウンゼント組）を相棒を変えて制覇。",
-    "category": "wta_doubles"
+    "category": "wta_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "カテリーナ・シニアコバ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Katerina+Siniakova+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "erin-routliffe",
@@ -25,7 +35,17 @@
     "age": 30,
     "partner": "Gabriela Dabrowski",
     "bioSummary": "全米オープン覇者。ダブロフスキとのペアで世界ランク1位にも輝いたニュージーランドのエース。",
-    "category": "wta_doubles"
+    "category": "wta_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "エリン・ラウトリフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Erin+Routliffe+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "gabriela-dabrowski",
@@ -39,7 +59,17 @@
     "age": 33,
     "partner": "Erin Routliffe",
     "bioSummary": "カナダのダブルス名手。全米オープン優勝、WTAファイナルズ優勝など抜群の実績を誇る。",
-    "category": "wta_doubles"
+    "category": "wta_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ガブリエラ・ダブロフスキ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Gabriela+Dabrowski+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "shuko-aoyama",
@@ -55,7 +85,26 @@
     "titles": 20,
     "bioSummary": "ツアー通算20勝を誇る日本女子ダブルスの象徴。154cmの小柄な体躯から繰り出す電光石火のポーチボレーと反射神経は世界屈指。全豪オープン準優勝、ウィンブルドン4強など数々の金字塔を打ち立てる。",
     "isJapanese": true,
-    "category": "wta_doubles"
+    "category": "wta_doubles",
+    "imageUrl": "https://images.unsplash.com/photo-1530915534664-4ac642379740?w=600&auto=format&fit=crop&q=80",
+    "sns": {
+      "instagram": "https://www.instagram.com/shukoaoyama/"
+    },
+    "stories": [
+      {
+        "title": "身長154cmの電光石火ボレー：世界を唸らせるダブルスの匠",
+        "source": "Number Web",
+        "url": "https://number.bunshun.jp/articles/-/856214",
+        "summary": "早稲田大学出身。ツアー選手の中で極めて小柄ながら、卓越したポジション取りとポーチボレーの鋭さでツアー通算20勝を達成。全豪準優勝など世界のトップで戦い続ける。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "青山修子＆柴原瑛菜 神がかり的コンビネーション＆スーパーボレー集",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Shuko+Aoyama+Ena+Shibahara+doubles"
+      }
+    ]
   },
   {
     "id": "ena-shibahara-doubles",
@@ -71,7 +120,17 @@
     "titles": 10,
     "bioSummary": "青山修子とのペアでWTAファイナルズ4強、全豪オープン準優勝。2022年全仏混合ダブルスで優勝し、日本人女子として沢松和子以来となる四大大会混合複制覇の快挙を成し遂げた。",
     "isJapanese": true,
-    "category": "wta_doubles"
+    "category": "wta_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "柴原 瑛菜 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Ena+Shibahara+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "miyu-kato",
@@ -87,7 +146,17 @@
     "titles": 5,
     "bioSummary": "2023年全仏オープン混合ダブルス優勝者！困難を乗り越えてGSタイトルを獲得し、世界中から温かい称賛を浴びた。積極果敢なネットプレーと明るいキャラクターで人気の名手。",
     "isJapanese": true,
-    "category": "wta_doubles"
+    "category": "wta_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "加藤 未唯 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Miyu+Kato+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "makoto-ninomiya",
@@ -103,7 +172,17 @@
     "titles": 6,
     "bioSummary": "2018年全仏オープン女子ダブルス準優勝（穂積絵莉ペア）。日本人ペアとして史上初の全仏決勝進出を果たした日本ダブルス界の立役者。",
     "isJapanese": true,
-    "category": "wta_doubles"
+    "category": "wta_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "二宮 真琴 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Makoto+Ninomiya+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "eri-hozumi",
@@ -119,6 +198,16 @@
     "titles": 6,
     "bioSummary": "全豪オープン4強、全仏オープン準優勝の実績を持つ日本の誇るダブルススペシャリスト。力強いストロークと冷静なボレーが武器。",
     "isJapanese": true,
-    "category": "wta_doubles"
+    "category": "wta_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "穂積 絵莉 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Eri+Hozumi+tennis+highlights"
+      }
+    ]
   }
 ]

@@ -12,7 +12,17 @@
     "partner": "Mate Pavic",
     "partnerJa": "マテ・パビッチ",
     "bioSummary": "中米エルサルバドル初の世界1位＆グランドスラム王者。パビッチとの名コンビで2024年全仏オープンを制覇。",
-    "category": "atp_doubles"
+    "category": "atp_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マルセロ・アレバロ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Marcelo+Arevalo+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "mate-pavic",
@@ -27,7 +37,17 @@
     "partner": "Marcelo Arevalo",
     "partnerJa": "マルセロ・アレバロ",
     "bioSummary": "ダブルス生涯グランドスラム達成者。東京五輪金メダリスト。左腕からの強烈なサーブと神がかり的ボレーを誇る。",
-    "category": "atp_doubles"
+    "category": "atp_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マテ・パビッチ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Mate+Pavic+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "jordan-thompson-doubles",
@@ -42,7 +62,17 @@
     "partner": "Max Purcell",
     "partnerJa": "マックス・パーセル",
     "bioSummary": "2024年全米オープン男子ダブルス優勝。シングルスでも活躍するオーストラリアのオールラウンダー。",
-    "category": "atp_doubles"
+    "category": "atp_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ジョーダン・トンプソン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jordan+Thompson+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "max-purcell",
@@ -57,7 +87,17 @@
     "partner": "Jordan Thompson",
     "partnerJa": "ジョーダン・トンプソン",
     "bioSummary": "ウィンブルドン＆全米オープン男子ダブルス覇者。巧みなサーブ＆ボレーと鋭いタッチが武器。",
-    "category": "atp_doubles"
+    "category": "atp_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マックス・パーセル プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Max+Purcell+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "rohan-bopanna",
@@ -72,7 +112,17 @@
     "partner": "Matthew Ebden",
     "partnerJa": "マシュー・エブデン",
     "bioSummary": "43歳にして史上最年長の世界ランキング1位に登り詰めたインドのレジェンド。2024年全豪オープン男子ダブルス王者。",
-    "category": "atp_doubles"
+    "category": "atp_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ロハン・ボパンナ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Rohan+Bopanna+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "ben-mclachlan",
@@ -87,7 +137,17 @@
     "careerHigh": 18,
     "bioSummary": "全豪オープン男子ダブルス4強進出、ツアー7勝を誇る日本男子ダブルスのスペシャリスト。ニュージーランド出身で日本代表デビスカップでも大活躍。",
     "isJapanese": true,
-    "category": "atp_doubles"
+    "category": "atp_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マクラクラン 勉 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Ben+McLachlan+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "toshihide-matsui",
@@ -102,7 +162,17 @@
     "careerHigh": 130,
     "bioSummary": "47歳現役の鉄人プレーヤー！チャレンジャー大会で数々のタイトルを獲得し、日本男子テニス界の生ける伝説として戦い続ける。",
     "isJapanese": true,
-    "category": "atp_doubles"
+    "category": "atp_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "松井 俊英 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Toshihide+Matsui+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "kaito-uesugi",
@@ -117,6 +187,16 @@
     "careerHigh": 125,
     "bioSummary": "慶応大学出身。松井俊英とのペアでチャレンジャー大会を連覇するなど、日本のダブルス界を牽引。",
     "isJapanese": true,
-    "category": "atp_doubles"
+    "category": "atp_doubles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "上杉 海斗 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Kaito+Uesugi+tennis+highlights"
+      }
+    ]
   }
 ]

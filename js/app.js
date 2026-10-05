@@ -347,6 +347,11 @@ function renderCards(players) {
     else if (p.rank <= 3) rankBadgeClass = "rank-badge-top3";
     else if (p.rank <= 10) rankBadgeClass = "rank-badge-top10";
 
+    // アバターHTML
+    const avatarImg = p.imageUrl ? 
+      `<img src="${p.imageUrl}" alt="${p.nameJa || p.name}" class="w-12 h-12 rounded-full object-cover border border-slate-200 shadow-sm flex-shrink-0" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<div class=\\'w-12 h-12 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-800 font-bold flex items-center justify-center text-sm shadow-sm\\'>${(p.nameJa || p.name).charAt(0)}</div>';">` :
+      `<div class="w-12 h-12 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-800 font-bold flex items-center justify-center text-sm shadow-sm flex-shrink-0">${(p.nameJa || p.name).charAt(0)}</div>`;
+
     card.innerHTML = `
       <div>
         <div class="flex items-center justify-between mb-3">
@@ -360,14 +365,19 @@ function renderCards(players) {
           <span class="text-xs font-semibold text-slate-400 font-mono">${p.points ? `${p.points.toLocaleString()} pts` : ''}</span>
         </div>
 
-        <div class="flex items-baseline gap-2 mb-1">
-          <span class="text-xl">${p.flag || '🏳️'}</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-700 leading-tight">
-            ${p.nameJa || p.name}
-          </h3>
-        </div>
-        <div class="text-xs text-slate-500 font-medium mb-3">
-          ${p.name} (${p.countryJa || p.country})
+        <div class="flex items-center gap-3 mb-2.5">
+          ${avatarImg}
+          <div class="min-w-0">
+            <div class="flex items-baseline gap-1.5">
+              <span class="text-lg">${p.flag || '🏳️'}</span>
+              <h3 class="text-base font-bold text-slate-900 group-hover:text-emerald-700 leading-tight truncate">
+                ${p.nameJa || p.name}
+              </h3>
+            </div>
+            <div class="text-xs text-slate-500 font-medium truncate">
+              ${p.name} (${p.countryJa || p.country})
+            </div>
+          </div>
         </div>
 
         <!-- 昔のファン向けワンフレーズ紹介 -->
@@ -382,7 +392,7 @@ function renderCards(players) {
           ${p.careerHigh ? `<span class="mx-1 text-slate-300">|</span><span class="text-slate-400">最高:</span> <span class="font-medium text-slate-700">${p.careerHigh}位</span>` : ''}
         </div>
         <span class="text-emerald-600 font-semibold flex items-center gap-1 hover:underline">
-          詳細を見る <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+          詳細・動画 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
         </span>
       </div>
     `;
@@ -404,6 +414,9 @@ function renderTable(players) {
     else if (p.rank <= 3) rankBadgeClass = "rank-badge-top3";
     else if (p.rank <= 10) rankBadgeClass = "rank-badge-top10";
 
+    const miniAvatar = p.imageUrl ?
+      `<img src="${p.imageUrl}" alt="" class="w-7 h-7 rounded-full object-cover border border-slate-200" onerror="this.style.display='none'">` : '';
+
     tr.innerHTML = `
       <td class="py-3 px-4">
         <span class="inline-flex items-center justify-center font-bold text-xs px-2.5 py-1 rounded-full ${rankBadgeClass}">
@@ -411,8 +424,9 @@ function renderTable(players) {
         </span>
       </td>
       <td class="py-3 px-4">
-        <div class="flex items-center gap-2">
-          <span class="text-lg">${p.flag || '🏳️'}</span>
+        <div class="flex items-center gap-2.5">
+          ${miniAvatar}
+          <span class="text-base">${p.flag || '🏳️'}</span>
           <div>
             <div class="font-bold text-slate-900 text-sm flex items-center gap-1.5">
               ${p.nameJa || p.name}
@@ -443,69 +457,6 @@ function renderTable(players) {
   });
 }
 
-// 四大大会ビュー描画
-function renderTournaments() {
-  const tournaments = tennisStore.categories.tournaments.data;
-  elements.totalCountBadge.textContent = `${tournaments.length} 大会`;
-  elements.tournamentsContainer.innerHTML = "";
-
-  const slamClassMap = {
-    "australian-open": "slam-ao",
-    "french-open": "slam-rg",
-    "wimbledon": "slam-wb",
-    "us-open": "slam-us"
-  };
-
-  tournaments.forEach(t => {
-    const card = document.createElement("div");
-    const accentClass = slamClassMap[t.id] || "border-t-4 border-slate-500";
-    card.className = `bg-white rounded-xl shadow-sm border border-slate-200/80 p-6 ${accentClass}`;
-
-    let championsHtml = "";
-    if (t.recentChampions && t.recentChampions.length > 0) {
-      championsHtml = `
-        <div class="mt-4 pt-4 border-t border-slate-100">
-          <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">近年の歴代優勝者</h4>
-          <div class="space-y-2">
-            ${t.recentChampions.map(c => `
-              <div class="text-xs bg-slate-50 p-2.5 rounded-lg border border-slate-100">
-                <span class="font-bold text-emerald-700 mr-2">${c.year}年:</span>
-                <span class="text-slate-800 mr-3"><strong>男子:</strong> ${c.men}</span>
-                <span class="text-slate-800 mr-3"><strong>女子:</strong> ${c.women}</span>
-                ${c.wheelchairMen ? `<div class="mt-1 text-[11px] text-slate-600">♿ <strong>車いす:</strong> 男子: ${c.wheelchairMen} / 女子: ${c.wheelchairWomen}</div>` : ''}
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      `;
-    }
-
-    card.innerHTML = `
-      <div class="flex items-start justify-between mb-3">
-        <div>
-          <span class="text-xs font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full">${t.month}</span>
-          <h3 class="text-xl font-bold text-slate-900 mt-1">${t.nameJa}</h3>
-          <div class="text-xs text-slate-400 font-medium">${t.name}</div>
-        </div>
-        <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md font-semibold">${t.surface}</span>
-      </div>
-
-      <div class="text-xs text-slate-500 mb-2 flex items-center gap-1">
-        <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-        ${t.city} (${t.venue})
-      </div>
-
-      <p class="text-xs text-slate-600 leading-relaxed mb-3">
-        ${t.description}
-      </p>
-
-      ${championsHtml}
-    `;
-
-    elements.tournamentsContainer.appendChild(card);
-  });
-}
-
 // ==========================================
 // 選手詳細モーダル（ポップアップ）制御
 // ==========================================
@@ -518,7 +469,99 @@ function openPlayerModal(index) {
   elements.modalPrevBtn.disabled = index === 0;
   elements.modalNextBtn.disabled = index === currentFilteredList.length - 1;
 
-  // モーダル内容の生成
+  // 顔写真アバターHTML
+  const modalAvatarHtml = p.imageUrl ? `
+    <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-emerald-500 overflow-hidden flex-shrink-0 shadow-md">
+      <img src="${p.imageUrl}" alt="${p.nameJa || p.name}" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'w-full h-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-2xl\\'>${(p.nameJa || p.name).charAt(0)}</div>'">
+    </div>
+  ` : `
+    <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-emerald-100 border-2 border-emerald-500 text-emerald-800 font-bold flex items-center justify-center text-2xl shadow-md flex-shrink-0">
+      ${(p.nameJa || p.name).charAt(0)}
+    </div>
+  `;
+
+  // SNSリンクHTML
+  let snsHtml = "";
+  if (p.sns && (p.sns.instagram || p.sns.twitter || p.sns.youtube)) {
+    snsHtml = `
+      <div class="flex items-center gap-2 mt-2.5 flex-wrap">
+        ${p.sns.instagram ? `<a href="${p.sns.instagram}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-[11px] bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold px-2.5 py-1 rounded-full hover:opacity-90 transition-opacity shadow-sm"><span>📸</span> Instagram</a>` : ''}
+        ${p.sns.twitter ? `<a href="${p.sns.twitter}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-[11px] bg-slate-900 text-white font-semibold px-2.5 py-1 rounded-full hover:bg-black transition-colors shadow-sm"><span>𝕏</span> Twitter</a>` : ''}
+        ${p.sns.youtube ? `<a href="${p.sns.youtube}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-[11px] bg-red-600 text-white font-semibold px-2.5 py-1 rounded-full hover:bg-red-700 transition-colors shadow-sm"><span>▶️</span> YouTube</a>` : ''}
+      </div>
+    `;
+  }
+
+  // 生い立ち・人となりが分かる記事
+  let storiesHtml = "";
+  if (p.stories && p.stories.length > 0) {
+    storiesHtml = `
+      <div class="mt-4 pt-4 border-t border-slate-100">
+        <h4 class="text-xs font-bold text-amber-900 uppercase tracking-wider mb-2.5 flex items-center gap-1.5">
+          <span>📖</span> 生い立ち・人となりが分かるエピソード・記事
+        </h4>
+        <div class="space-y-2.5">
+          ${p.stories.map(st => `
+            <div class="bg-amber-50/70 border border-amber-200/80 p-3 rounded-xl text-xs">
+              <div class="flex items-start justify-between gap-2 mb-1.5">
+                <h5 class="font-bold text-amber-950 text-xs sm:text-sm leading-snug">
+                  ${st.title}
+                </h5>
+                ${st.source ? `<span class="text-[10px] bg-amber-200/70 text-amber-900 font-semibold px-2 py-0.5 rounded whitespace-nowrap">${st.source}</span>` : ''}
+              </div>
+              <p class="text-slate-700 leading-relaxed mb-2 text-xs">
+                ${st.summary}
+              </p>
+              ${st.url ? `
+                <a href="${st.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-[11px] text-amber-900 font-bold hover:underline">
+                  記事全文を読む (外部サイト) <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+              ` : ''}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  // プレー映像・ハイライト動画（YouTube / TikTok）
+  let videosHtml = "";
+  if (p.videos && p.videos.length > 0) {
+    videosHtml = `
+      <div class="mt-4 pt-4 border-t border-slate-100">
+        <h4 class="text-xs font-bold text-rose-900 uppercase tracking-wider mb-2.5 flex items-center gap-1.5">
+          <span>🎥</span> プレー映像・スーパーショット動画 (YouTube / TikTok)
+        </h4>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+          ${p.videos.map(v => {
+            const isTikTok = v.platform === "TikTok";
+            const badgeClass = isTikTok ? "bg-black text-white" : "bg-red-600 text-white";
+            const icon = isTikTok ? "📱" : "▶️";
+            return `
+              <a href="${v.url}" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-between p-3 rounded-xl border border-slate-200 hover:border-red-400 bg-slate-50 hover:bg-red-50/40 transition-all shadow-sm">
+                <div class="flex items-center gap-2.5 pr-2">
+                  <span class="inline-flex items-center justify-center w-7 h-7 rounded-lg ${badgeClass} font-bold text-xs shadow-sm flex-shrink-0">
+                    ${icon}
+                  </span>
+                  <div>
+                    <div class="font-bold text-slate-800 group-hover:text-red-700 text-xs line-clamp-1">
+                      ${v.title}
+                    </div>
+                    <span class="text-[10px] text-slate-400 font-medium">${v.platform} で視聴</span>
+                  </div>
+                </div>
+                <span class="text-slate-400 group-hover:text-red-600 transition-colors">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+              </a>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  // 四大大会戦績
   let grandSlamHtml = "";
   if (p.grandSlams) {
     grandSlamHtml = `
@@ -572,28 +615,34 @@ function openPlayerModal(index) {
 
   elements.modalPlayerContent.innerHTML = `
     <div>
-      <!-- ヘッダー情報 -->
-      <div class="flex items-start justify-between pb-4 border-b border-slate-100">
-        <div>
-          <div class="flex items-center gap-2 mb-1.5">
-            <span class="font-bold text-sm bg-emerald-700 text-white px-2.5 py-0.5 rounded-full">
+      <!-- ヘッダー情報（写真 ＋ 名前 ＋ ランキング ＋ SNS） -->
+      <div class="flex items-start gap-4 pb-4 border-b border-slate-100">
+        ${modalAvatarHtml}
+        
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="font-bold text-xs bg-emerald-700 text-white px-2.5 py-0.5 rounded-full shadow-sm">
               世界ランク #${p.rank}
             </span>
-            ${p.division ? `<span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded">${p.division}</span>` : ''}
+            ${p.division ? `<span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded font-medium">${p.division}</span>` : ''}
             ${p.isJapanese ? `<span class="text-xs font-bold text-red-600 bg-red-50 border border-red-200 px-2 py-0.5 rounded-full">🇯🇵 日本代表</span>` : ''}
           </div>
+          
           <div class="flex items-baseline gap-2">
-            <span class="text-2xl">${p.flag || '🏳️'}</span>
-            <h2 class="text-2xl font-bold text-slate-900">${p.nameJa || p.name}</h2>
+            <span class="text-xl">${p.flag || '🏳️'}</span>
+            <h2 class="text-xl sm:text-2xl font-bold text-slate-900 leading-tight">${p.nameJa || p.name}</h2>
           </div>
-          <div class="text-sm text-slate-500 font-medium">
+          <div class="text-xs text-slate-500 font-medium">
             ${p.name} / ${p.countryJa || p.country}
           </div>
+
+          <!-- SNSボタン -->
+          ${snsHtml}
         </div>
 
-        <div class="text-right">
-          <div class="text-xs text-slate-400">獲得ポイント</div>
-          <div class="text-xl font-bold text-slate-800 font-mono">${p.points ? `${p.points.toLocaleString()} pts` : '-'}</div>
+        <div class="text-right flex-shrink-0 hidden sm:block">
+          <div class="text-[10px] text-slate-400 font-medium">獲得ポイント</div>
+          <div class="text-lg font-bold text-slate-800 font-mono">${p.points ? `${p.points.toLocaleString()} pts` : '-'}</div>
         </div>
       </div>
 
@@ -602,34 +651,34 @@ function openPlayerModal(index) {
         <div class="text-xs font-bold text-emerald-900 flex items-center gap-1.5 mb-1.5">
           <span>🎾</span> 選手の特徴・見どころガイド (昔のファン向け解説)
         </div>
-        <p class="text-sm text-emerald-950 leading-relaxed">
+        <p class="text-xs sm:text-sm text-emerald-950 leading-relaxed">
           ${p.bioSummary || '世界ツアーで活躍するトップテニスプレーヤー。'}
         </p>
       </div>
 
       <!-- 基本プロフィール表 -->
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4 text-xs">
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mt-4 text-xs">
         <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-100">
-          <div class="text-slate-400">年齢</div>
+          <div class="text-slate-400 text-[11px]">年齢</div>
           <div class="font-bold text-slate-800 text-sm mt-0.5">${p.age ? `${p.age} 歳` : '-'}</div>
         </div>
         <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-100">
-          <div class="text-slate-400">身長</div>
+          <div class="text-slate-400 text-[11px]">身長</div>
           <div class="font-bold text-slate-800 text-sm mt-0.5">${p.height || '-'}</div>
         </div>
         <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-100">
-          <div class="text-slate-400">利き手</div>
+          <div class="text-slate-400 text-[11px]">利き手</div>
           <div class="font-bold text-slate-800 text-sm mt-0.5">${p.plays || '-'}</div>
         </div>
         <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-100">
-          <div class="text-slate-400">自己最高位</div>
+          <div class="text-slate-400 text-[11px]">自己最高位</div>
           <div class="font-bold text-slate-800 text-sm mt-0.5">${p.careerHigh ? `${p.careerHigh} 位` : '-'}</div>
         </div>
       </div>
 
       <!-- プレースタイル -->
       ${p.style ? `
-        <div class="mt-4 bg-slate-50 p-3 rounded-lg border border-slate-100 text-xs">
+        <div class="mt-3 bg-slate-50 p-2.5 rounded-lg border border-slate-100 text-xs">
           <span class="font-bold text-slate-700 mr-2">プレースタイル:</span>
           <span class="text-slate-600">${p.style}</span>
         </div>
@@ -637,11 +686,17 @@ function openPlayerModal(index) {
 
       <!-- パートナー情報（ダブルスの場合） -->
       ${p.partner ? `
-        <div class="mt-4 bg-amber-50 border border-amber-200 p-3 rounded-lg text-xs">
+        <div class="mt-3 bg-amber-50 border border-amber-200 p-2.5 rounded-lg text-xs">
           <span class="font-bold text-amber-900 mr-2">主なダブルスペア:</span>
           <span class="text-amber-800 font-medium">${p.partnerJa || p.partner}</span>
         </div>
       ` : ''}
+
+      <!-- 生い立ち・人となりストーリー -->
+      ${storiesHtml}
+
+      <!-- プレー映像・動画リンク -->
+      ${videosHtml}
 
       <!-- 四大大会戦績 -->
       ${grandSlamHtml}

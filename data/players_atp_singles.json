@@ -51,7 +51,38 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jannik_Sinner_2023.jpg/480px-Jannik_Sinner_2023.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/janniksin/",
+      "twitter": "https://x.com/janniksin"
+    },
+    "stories": [
+      {
+        "title": "スキーのジュニア王者からテニス世界1位へ：シナーの謙虚な原点",
+        "source": "Number Web",
+        "url": "https://number.bunshun.jp/articles/-/860451",
+        "summary": "北イタリア・南チロルの山岳地帯に生まれ、幼少期はアルペンスキーの大回転で全国チャンピオンだった。13歳で名伯楽リカルド・ピアッティのアカデミーに入るため親元を離れ自活。両親は山小屋のコックとウェイトレスで、質素で勤勉な家庭環境から『勝っても奢らず、負けても学び続ける』謙虚な人柄が培われた。"
+      },
+      {
+        "title": "感情を露わにしない氷のメンタルと、家族への感謝",
+        "source": "ATP Tour 公式",
+        "url": "https://www.atptour.com/en/news/sinner-australian-open-2024-final-reaction",
+        "summary": "全豪オープン初制覇時のスピーチで『両親が自分に決してプレッシャーをかけず、好きなスポーツを自由に選ばせてくれたことに感謝したい』と語り世界中の感動を呼んだ。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "ヤニック・シナー 驚異のフォアハンド＆ベストショット集",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jannik+Sinner+best+shots+highlights"
+      },
+      {
+        "title": "シナーの信じられない超高速ラリー＆スライドショット",
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/tag/janniksinner"
+      }
+    ]
   },
   {
     "id": "carlos-alcaraz",
@@ -105,7 +136,32 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Carlos_Alcaraz_%28ESP%29_2023.jpg/480px-Carlos_Alcaraz_%28ESP%29_2023.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/carlosalcarazz/",
+      "twitter": "https://x.com/carlosalcaraz"
+    },
+    "stories": [
+      {
+        "title": "祖父が教えた『頭・心・勇気』の教え：ナダルの後継者の素顔",
+        "source": "THE TENNIS DAILY",
+        "url": "https://www.thetennisdaily.jp/news/overseas/primary/2022/0047814.php",
+        "summary": "スペイン・ムルシア出身。祖父から贈られた『頭（Cabeza）、心（Corazon）、勇気（Cojones）の3つのCを持て』という言葉を常に胸に刻んでプレーする。元世界1位のフアン・カルロス・フェレーロと固い絆で結ばれ、ツアー屈指の天真爛漫な笑顔と家族想いの性格で誰からも愛される。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "カルロス・アルカラス 神業ドロップショット＆超人的コートカバー集",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Carlos+Alcaraz+impossible+shots+highlights"
+      },
+      {
+        "title": "アルカラスの圧巻スーパープレー＆笑顔ハイライト",
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/tag/carlosalcaraz"
+      }
+    ]
   },
   {
     "id": "alexander-zverev",
@@ -154,7 +210,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アレクサンダー・ズベレフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Alexander+Zverev+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "novak-djokovic",
@@ -203,7 +269,27 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Novak_Djokovic_Queen%27s_Club_2018.jpg/480px-Novak_Djokovic_Queen%27s_Club_2018.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/djokernole/",
+      "twitter": "https://x.com/DjokerNole"
+    },
+    "stories": [
+      {
+        "title": "ベオグラードの空爆を潜り抜けた少年：逆境が鍛えた鉄の心",
+        "source": "BBC Sport / Number",
+        "url": "https://number.bunshun.jp/articles/-/848834",
+        "summary": "1999年のコソボ紛争時、夜間は地下シェルターで過ごし、昼間は爆撃の跡が残る空き地でテニスの練習を続けた。いかなる過酷な状況でも動じない超人的なメンタリティと、グルテンフリー・菜食を取り入れた徹底的な肉体管理のルーツはここにある。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "ノバク・ジョコビッチ 史上最高のスーパープレー＆マッチポイント集",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Novak+Djokovic+best+moments+career"
+      }
+    ]
   },
   {
     "id": "daniil-medvedev",
@@ -247,7 +333,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ダニール・メドベージェフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Daniil+Medvedev+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "taylor-fritz",
@@ -291,7 +387,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "テイラー・フリッツ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Taylor+Fritz+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "casper-ruud",
@@ -330,7 +436,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "キャスパー・ルード プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Casper+Ruud+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "alex-de-minaur",
@@ -374,7 +490,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アレックス・デミノー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Alex+de+Minaur+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "andrey-rublev",
@@ -413,7 +539,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アンドレイ・ルブレフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Andrey+Rublev+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "grigor-dimitrov",
@@ -457,7 +593,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "グリゴール・ディミトロフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Grigor+Dimitrov+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "stefanos-tsitsipas",
@@ -496,7 +642,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ステファノス・チチパス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Stefanos+Tsitsipas+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "tommy-paul",
@@ -535,7 +691,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "トミー・ポール プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tommy+Paul+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "holger-rune",
@@ -574,7 +740,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ホルガ・ルーネ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Holger+Rune+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "frances-tiafoe",
@@ -613,7 +789,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "フランシス・ティアフォー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Frances+Tiafoe+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "ben-shelton",
@@ -652,7 +838,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ベン・シェルトン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Ben+Shelton+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "huber-hurkacz",
@@ -691,7 +887,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "フベルト・フルカチュ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Hubert+Hurkacz+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "jack-draper",
@@ -735,7 +941,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ジャック・ドレイパー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jack+Draper+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "lorenzo-musetti",
@@ -774,7 +990,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ロレンツォ・ムゼッティ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Lorenzo+Musetti+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "felix-auger-aliassime",
@@ -813,7 +1039,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "フェリックス・オジェ・アリアシム プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Felix+Auger-Aliassime+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "arthur-fils",
@@ -852,7 +1088,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アルトゥール・フィス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Arthur+Fils+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Ugo Humbert",
@@ -867,7 +1113,17 @@
     "careerHigh": 13,
     "titles": 6,
     "bioSummary": "強烈なフラットサーブとライジング強打を持つフランスの実力派サウスポー。",
-    "id": "ugo-humbert"
+    "id": "ugo-humbert",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ウゴ・アンベール プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Ugo+Humbert+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Sebastian Baez",
@@ -882,7 +1138,17 @@
     "careerHigh": 18,
     "titles": 6,
     "bioSummary": "170cmと小柄ながら驚異的なフットワークと粘りでクレーを中心にタイトルを量産するアルゼンチンの俊英。",
-    "id": "sebastian-baez"
+    "id": "sebastian-baez",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "セバスティアン・バエス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sebastian+Baez+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Jordan Thompson",
@@ -897,7 +1163,17 @@
     "careerHigh": 23,
     "titles": 1,
     "bioSummary": "ダブルスでも全米制覇を果たすなど、ネットスキルの高いオーストラリアの職人肌プレーヤー。",
-    "id": "jordan-thompson"
+    "id": "jordan-thompson",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ジョーダン・トンプソン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jordan+Thompson+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Alejandro Tabilo",
@@ -912,7 +1188,17 @@
     "careerHigh": 19,
     "titles": 2,
     "bioSummary": "2024年にジョコビッチを破る金星を挙げ、チリ男子テニス界を牽引するサウスポー。",
-    "id": "alejandro-tabilo"
+    "id": "alejandro-tabilo",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アレハンドロ・タビロ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Alejandro+Tabilo+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Nicolas Jarry",
@@ -927,7 +1213,17 @@
     "careerHigh": 16,
     "titles": 3,
     "bioSummary": "2メートル超の長身から繰り出す豪速サーブとフォアハンドが持ち味のチリのエース。",
-    "id": "nicolas-jarry"
+    "id": "nicolas-jarry",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ニコラス・ジャリー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Nicolas+Jarry+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Karen Khachanov",
@@ -942,7 +1238,17 @@
     "careerHigh": 8,
     "titles": 7,
     "bioSummary": "東京五輪銀メダリスト。全グランドスラムでベスト8以上の実績を持つ屈強なハードヒッター。",
-    "id": "karen-khachanov"
+    "id": "karen-khachanov",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "カレン・ハチャノフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Karen+Khachanov+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Tomas Machac",
@@ -957,7 +1263,17 @@
     "careerHigh": 25,
     "titles": 0,
     "bioSummary": "短パンがトレードマークのチェコの新星。パリ五輪混合複金メダリスト。アルカラスを破るなど急成長中。",
-    "id": "tomas-machac"
+    "id": "tomas-machac",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "トマーシュ・マハツ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tomas+Machac+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Jiri Lehecka",
@@ -972,7 +1288,17 @@
     "careerHigh": 23,
     "titles": 1,
     "bioSummary": "全豪オープン8強進出の経験を持つ、チェコの次世代を担う正統派ベースライナー。",
-    "id": "jiri-lehecka"
+    "id": "jiri-lehecka",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "イジー・レヘチカ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jiri+Lehecka+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Sebastian Korda",
@@ -987,7 +1313,17 @@
     "careerHigh": 15,
     "titles": 2,
     "bioSummary": "父ペトル・コルダ（全豪王者）譲りの滑らかで美しいストロークを持つアメリカの貴公子。",
-    "id": "sebastian-korda"
+    "id": "sebastian-korda",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "セバスチャン・コルダ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sebastian+Korda+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Alexei Popyrin",
@@ -1002,7 +1338,17 @@
     "careerHigh": 23,
     "titles": 3,
     "bioSummary": "2024年モントリオール・マスターズを制し、全米でジョコビッチを撃破したオーストラリアの長身砲。",
-    "id": "alexei-popyrin"
+    "id": "alexei-popyrin",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アレクセイ・ポピリン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Alexei+Popyrin+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "flavio-cobolli",
@@ -1021,7 +1367,17 @@
     "bioSummary": "世界ランキング31位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "フラビオ・コボッリ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Flavio+Cobolli+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "francisco-cerundolo",
@@ -1040,7 +1396,17 @@
     "bioSummary": "世界ランキング32位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "フランシスコ・セルンドロ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Francisco+Cerundolo+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "tallon-griekspoor",
@@ -1059,7 +1425,17 @@
     "bioSummary": "世界ランキング33位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "タロン・フリクスポール プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tallon+Griekspoor+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "nuno-borges",
@@ -1078,7 +1454,17 @@
     "bioSummary": "世界ランキング34位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ヌーノ・ボルジェス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Nuno+Borges+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Matteo Berrettini",
@@ -1093,7 +1479,17 @@
     "careerHigh": 6,
     "titles": 10,
     "bioSummary": "2021年ウィンブルドン準優勝。強烈な弾道のサーブと爆発的フォアハンド『ハンマー』を持つイタリアの巨漢。",
-    "id": "matteo-berrettini"
+    "id": "matteo-berrettini",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マッテオ・ベレッティーニ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Matteo+Berrettini+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "jan-lennard-struff",
@@ -1112,7 +1508,17 @@
     "bioSummary": "世界ランキング36位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ヤン・レナード・シュトルフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jan-Lennard+Struff+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "matteo-arnaldi",
@@ -1131,7 +1537,17 @@
     "bioSummary": "世界ランキング38位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マッテオ・アルナルディ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Matteo+Arnaldi+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "pedro-martinez",
@@ -1150,7 +1566,17 @@
     "bioSummary": "世界ランキング39位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ペドロ・マルティネス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Pedro+Martinez+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "alexander-bublik",
@@ -1169,7 +1595,17 @@
     "bioSummary": "世界ランキング40位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アレクサンダー・ブブリク プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Alexander+Bublik+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "luciano-darderi",
@@ -1188,7 +1624,17 @@
     "bioSummary": "世界ランキング41位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ルチアーノ・ダルデリ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Luciano+Darderi+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Gael Monfils",
@@ -1203,7 +1649,17 @@
     "careerHigh": 6,
     "titles": 12,
     "bioSummary": "驚異のジャンプ力とアクロバティックなスーパープレーで世界中を魅了し続ける長年の人気エンターテイナー。夫人はエリナ・スビトリナ。",
-    "id": "gael-monfils"
+    "id": "gael-monfils",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ガエル・モンフィス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Gael+Monfils+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "tomas-martin-etcheverry",
@@ -1222,7 +1678,17 @@
     "bioSummary": "世界ランキング43位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "トマス・マルティン・エチェベリ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tomas+Martin+Etcheverry+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "mariano-navone",
@@ -1241,7 +1707,17 @@
     "bioSummary": "世界ランキング44位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マリアーノ・ナボーネ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Mariano+Navone+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "zhizhen-zhang",
@@ -1260,7 +1736,17 @@
     "bioSummary": "世界ランキング45位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "張之臻 (ジャン・ジジェン) プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Zhizhen+Zhang+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "cameron-norrie",
@@ -1279,7 +1765,17 @@
     "bioSummary": "世界ランキング46位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "キャメロン・ノリー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Cameron+Norrie+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "adrian-mannarino",
@@ -1298,7 +1794,17 @@
     "bioSummary": "世界ランキング47位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アドリアン・マナリノ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Adrian+Mannarino+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "marcos-giron",
@@ -1317,7 +1823,17 @@
     "bioSummary": "世界ランキング48位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マルコス・ギロン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Marcos+Giron+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "lorenzo-sonego",
@@ -1336,7 +1852,17 @@
     "bioSummary": "世界ランキング49位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ロレンツォ・ソネゴ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Lorenzo+Sonego+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "brandon-nakashima",
@@ -1355,7 +1881,17 @@
     "bioSummary": "世界ランキング50位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ブランドン・ナカシマ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Brandon+Nakashima+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "alex-michelsen",
@@ -1374,7 +1910,17 @@
     "bioSummary": "世界ランキング51位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アレックス・ミケルセン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Alex+Michelsen+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "roberto-carballes-baena",
@@ -1393,7 +1939,17 @@
     "bioSummary": "世界ランキング53位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ロベルト・カルバレス・バエナ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Roberto+Carballes+Baena+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "fabian-marozsan",
@@ -1412,7 +1968,17 @@
     "bioSummary": "世界ランキング54位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ファビアン・マロジャン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Fabian+Marozsan+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "roman-safiullin",
@@ -1431,7 +1997,17 @@
     "bioSummary": "世界ランキング55位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ロマン・サフィウリン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Roman+Safiullin+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "arthur-rinderknech",
@@ -1450,7 +2026,17 @@
     "bioSummary": "世界ランキング57位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アルトゥール・リンデルクネシュ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Arthur+Rinderknech+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "miomir-kecmanovic",
@@ -1469,7 +2055,17 @@
     "bioSummary": "世界ランキング58位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ミオミル・ケツマノビッチ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Miomir+Kecmanovic+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "david-goffin",
@@ -1488,7 +2084,17 @@
     "bioSummary": "世界ランキング59位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ダビド・ゴファン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=David+Goffin+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "botic-van-de-zandschulp",
@@ -1507,7 +2113,17 @@
     "bioSummary": "世界ランキング60位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ボティック・ファン・デ・ザンツフープ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Botic+van+de+Zandschulp+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "corentin-moutet",
@@ -1526,7 +2142,17 @@
     "bioSummary": "世界ランキング61位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "コランタン・ムーテ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Corentin+Moutet+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "facundo-diaz-acosta",
@@ -1545,7 +2171,17 @@
     "bioSummary": "世界ランキング62位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ファクンド・ディアス・アコスタ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Facundo+Diaz+Acosta+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "roberto-bautista-agut",
@@ -1564,7 +2200,17 @@
     "bioSummary": "世界ランキング63位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ロベルト・バウティスタ・アグート プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Roberto+Bautista+Agut+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "dominik-koepfer",
@@ -1583,7 +2229,17 @@
     "bioSummary": "世界ランキング64位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ドミニク・ケプファー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Dominik+Koepfer+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "giovanni-mpetshi-perricard",
@@ -1602,7 +2258,17 @@
     "bioSummary": "世界ランキング65位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ジョバンニ・ムペシ・ペリカール プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Giovanni+Mpetshi+Perricard+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "pavel-kotov",
@@ -1621,7 +2287,17 @@
     "bioSummary": "世界ランキング66位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "パベル・コトフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Pavel+Kotov+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "jaume-munar",
@@ -1640,7 +2316,17 @@
     "bioSummary": "世界ランキング67位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ハウメ・ムナル プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jaume+Munar+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "yoshihito-nishioka",
@@ -1684,7 +2370,28 @@
       }
     ],
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yoshihito_Nishioka_2023.jpg/480px-Yoshihito_Nishioka_2023.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/yoshihito0927/",
+      "twitter": "https://x.com/yoshihitotennis",
+      "youtube": "https://www.youtube.com/@yoshihitonishioka"
+    },
+    "stories": [
+      {
+        "title": "身長170cmで世界の巨漢を討つ：YouTuberとしても人気の日本エース",
+        "source": "テレ朝POST",
+        "url": "https://post.tv-asahi.co.jp/post-205120/",
+        "summary": "三重県津市出身。現代男子テニス界で最も小柄な部類に入りながら、並外れた読みと左利きの変化球、相手の心理を突く戦略で世界20位台へ登り詰めた。自身の公式YouTubeチャンネルでもツアーの裏側やテニスの魅力を精力的に発信しファンに愛される。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "西岡良仁 驚異のカウンターショット＆ツアー優勝ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Yoshihito+Nishioka+highlights"
+      }
+    ]
   },
   {
     "id": "arthur-cazaux",
@@ -1703,7 +2410,17 @@
     "bioSummary": "世界ランキング69位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アルトゥール・カゾー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Arthur+Cazaux+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "rinky-hijikata",
@@ -1722,7 +2439,17 @@
     "bioSummary": "世界ランキング70位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "リンキー・ヒジカタ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Rinky+Hijikata+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "zizou-bergs",
@@ -1741,7 +2468,17 @@
     "bioSummary": "世界ランキング71位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ジズー・ベルグス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Zizou+Bergs+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "alexandre-muller",
@@ -1760,7 +2497,17 @@
     "bioSummary": "世界ランキング72位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アレクサンドル・ミュラー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Alexandre+Muller+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "sumit-nagal",
@@ -1779,7 +2526,17 @@
     "bioSummary": "世界ランキング73位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "スミト・ナガル プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sumit+Nagal+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "daniel-altmaier",
@@ -1798,7 +2555,17 @@
     "bioSummary": "世界ランキング74位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ダニエル・アルトマイアー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Daniel+Altmaier+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "fabio-fognini",
@@ -1817,7 +2584,17 @@
     "bioSummary": "世界ランキング75位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ファビオ・フォニーニ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Fabio+Fognini+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "aleksandar-vukic",
@@ -1836,7 +2613,17 @@
     "bioSummary": "世界ランキング76位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アレクサンダー・ブキッチ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Aleksandar+Vukic+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "thiago-monteiro",
@@ -1855,7 +2642,17 @@
     "bioSummary": "世界ランキング77位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "チアゴ・モンテイロ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Thiago+Monteiro+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "thanasi-kokkinakis",
@@ -1874,7 +2671,17 @@
     "bioSummary": "世界ランキング78位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "タナシ・コキナキス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Thanasi+Kokkinakis+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "emil-ruusuvuori",
@@ -1893,7 +2700,17 @@
     "bioSummary": "世界ランキング79位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "エミル・ルースブオリ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Emil+Ruusuvuori+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "juncheng-shang",
@@ -1912,7 +2729,17 @@
     "bioSummary": "世界ランキング80位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "商竣程 (シャン・ジュンチェン) プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Juncheng+Shang+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "christopher-oconnell",
@@ -1931,7 +2758,17 @@
     "bioSummary": "世界ランキング81位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "クリストファー・オコネル プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Christopher+O'Connell+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "borna-coric",
@@ -1950,7 +2787,17 @@
     "bioSummary": "世界ランキング82位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ボルナ・チョリッチ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Borna+Coric+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "yunchaokete-bu",
@@ -1969,7 +2816,17 @@
     "bioSummary": "世界ランキング83位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "布雲朝克特 (ブ・ユンチャオケテ) プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Yunchaokete+Bu+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "jacob-fearnley",
@@ -1988,7 +2845,17 @@
     "bioSummary": "世界ランキング84位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ジェイコブ・ファーンリー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jacob+Fearnley+tennis+highlights"
+      }
+    ]
   },
   {
     "name": "Stan Wawrinka",
@@ -2003,7 +2870,17 @@
     "careerHigh": 3,
     "titles": 16,
     "bioSummary": "グランドスラム3勝（全豪14、全仏15、全米16）。テニス史上最強とも称される片手バックハンドの剛打を持つスイスの鉄人。40歳を迎えても現役を続行。",
-    "id": "stan-wawrinka"
+    "id": "stan-wawrinka",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "スタン・ワウリンカ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Stan+Wawrinka+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "james-duckworth",
@@ -2022,7 +2899,17 @@
     "bioSummary": "世界ランキング86位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ジェームズ・ダックワース プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=James+Duckworth+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "damir-dzumhur",
@@ -2041,7 +2928,17 @@
     "bioSummary": "世界ランキング87位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ダミル・ジュムホール プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Damir+Dzumhur+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "taro-daniel",
@@ -2080,7 +2977,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ダニエル 太郎 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Taro+Daniel+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "aslan-karatsev",
@@ -2099,7 +3006,17 @@
     "bioSummary": "世界ランキング90位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アスラン・カラツェフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Aslan+Karatsev+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "hugo-gaston",
@@ -2118,7 +3035,17 @@
     "bioSummary": "世界ランキング91位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ユーゴ・ガストン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Hugo+Gaston+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "thiago-seyboth-wild",
@@ -2137,7 +3064,17 @@
     "bioSummary": "世界ランキング93位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "チアゴ・ザイボチ・ヴィウジ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Thiago+Seyboth+Wild+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "hamad-medjedovic",
@@ -2156,7 +3093,17 @@
     "bioSummary": "世界ランキング94位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ハマド・メジェドビッチ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Hamad+Medjedovic+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "luca-nardi",
@@ -2175,7 +3122,17 @@
     "bioSummary": "世界ランキング95位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ルカ・ナルディ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Luca+Nardi+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "alexander-shevchenko",
@@ -2194,7 +3151,17 @@
     "bioSummary": "世界ランキング96位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アレクサンダー・シェフチェンコ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Alexander+Shevchenko+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "mikhail-kukushkin",
@@ -2213,7 +3180,17 @@
     "bioSummary": "世界ランキング97位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ミハイル・ククシュキン プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Mikhail+Kukushkin+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "denis-shapovalov",
@@ -2232,7 +3209,17 @@
     "bioSummary": "世界ランキング98位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "デニス・シャポバロフ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Denis+Shapovalov+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "marton-fucsovics",
@@ -2251,7 +3238,17 @@
     "bioSummary": "世界ランキング99位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マートン・フチョビッチ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Marton+Fucsovics+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "lucas-pouille",
@@ -2270,7 +3267,17 @@
     "bioSummary": "世界ランキング100位のトッププロ。国際ツアーで活躍中。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "リュカ・プイユ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Lucas+Pouille+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "kei-nishikori",
@@ -2314,7 +3321,32 @@
       }
     ],
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kei_Nishikori_%28JPN%29_2019.jpg/480px-Kei_Nishikori_%28JPN%29_2019.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/keinishikori/",
+      "twitter": "https://x.com/keinishikori"
+    },
+    "stories": [
+      {
+        "title": "13歳で海を渡った島根の少年：盛田ファンドと不屈の闘志",
+        "source": "スポルティーバ",
+        "url": "https://sportiva.shueisha.co.jp/clm/otherballgame/tennis/",
+        "summary": "島根県松江市出身。盛田正明氏の奨学金制度により、英語も話せないまま13歳で単身米フロリダのIMGアカデミーへ留学。体格の劣勢を卓越したフットワークとイマジネーションで補い、アジア男子初の世界ランク4位・GS準優勝を果たす。大手術を幾度も経てもなおテニスへの情熱を失わないレジェンド。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "錦織圭 伝説の『エア・ケイ』＆神業バックハンド集",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Kei+Nishikori+best+shots+air+kei"
+      },
+      {
+        "title": "錦織圭の華麗なタッチ＆ドロップショット集",
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/tag/keinishikori"
+      }
+    ]
   },
   {
     "id": "shintaro-mochizuki",
@@ -2353,7 +3385,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "望月 慎太郎 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Shintaro+Mochizuki+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "yosuke-watanuki",
@@ -2391,7 +3433,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "綿貫 陽介 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Yosuke+Watanuki+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "rei-sakamoto",
@@ -2428,7 +3480,26 @@
       }
     ],
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=600&auto=format&fit=crop&q=80",
+    "sns": {
+      "instagram": "https://www.instagram.com/rei_sakamoto_0826/"
+    },
+    "stories": [
+      {
+        "title": "195cmの大型新星：全豪ジュニア制覇で見せた侍ポーズ",
+        "source": "日刊スポーツ",
+        "url": "https://www.nikkansports.com/sports/news/202401270000845.html",
+        "summary": "愛知県出身。日本人男子として史上初めて全豪オープン・ジュニアシングルスを制覇。勝利後にラケットを日本刀に見立てて鞘に収める『侍ポーズ』で海外メディアの話題をさらった。世界ジュニア1位を経てプロの世界へ。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "坂本怜 全豪オープン・ジュニア歴史的優勝ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Rei+Sakamoto+Australian+Open+Junior+Final"
+      }
+    ]
   },
   {
     "id": "sho-shimabukuro",
@@ -2460,7 +3531,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "島袋 将 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sho+Shimabukuro+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "yasutaka-uchiyama",
@@ -2492,7 +3573,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "内山 靖崇 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Yasutaka+Uchiyama+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "kaichi-uchida",
@@ -2509,7 +3600,17 @@
     "titles": 0,
     "bioSummary": "ジュニア時代に世界3位を記録。重いストロークとパワフルな体幹を持つパワーベースライナー。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "内田 海智 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Kaichi+Uchida+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "james-trotter",
@@ -2526,7 +3627,17 @@
     "titles": 0,
     "bioSummary": "オハイオ州立大出身。190cmを超える体格から放つ強烈なサーブが武器の期待の大型選手。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "トゥロター・ジェームズ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=James+Trotter+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "rio-noguchi",
@@ -2543,7 +3654,17 @@
     "titles": 0,
     "bioSummary": "抜群のコートカバー力とミスの少なさが光る知性派カウンターパンチャー。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "野口 莉央 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Rio+Noguchi+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "naoki-nakagawa",
@@ -2560,7 +3681,17 @@
     "titles": 0,
     "bioSummary": "盛田ファンド出身。美しいグラウンドストロークでチャレンジャーを中心に戦う。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "中川 直樹 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Naoki+Nakagawa+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "hiroyasu-ehara",
@@ -2577,7 +3708,17 @@
     "titles": 0,
     "bioSummary": "全日本選手権覇者。ガッツあふれるプレーで長く国内トップを牽引するベテラン。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "江原 弘泰 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Hiroyasu+Ehara+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "yuta-shimizu",
@@ -2594,7 +3735,17 @@
     "titles": 0,
     "bioSummary": "サウスポーからの多彩な配球と素早いフットワークが持ち味の技巧派プレーヤー。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "清水 悠太 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Yuta+Shimizu+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "hiroki-moriya",
@@ -2611,7 +3762,17 @@
     "titles": 0,
     "bioSummary": "四大大会本戦出場経験を持つベテラン。フラット系のライジングショットを武器に長く活躍。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "守屋 宏紀 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Hiroki+Moriya+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "ryuki-matsuda",
@@ -2628,7 +3789,17 @@
     "titles": 0,
     "bioSummary": "力強いフォアハンドと積極的な攻勢でフューチャーズ大会でタイトルを重ねる若手。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "松田 龍樹 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Ryuki+Matsuda+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "kokoro-isomura",
@@ -2645,7 +3816,17 @@
     "titles": 0,
     "bioSummary": "若手注目株。多彩な球種と粘り強いストロークで順位を上げている期待の選手。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "磯村 志 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Kokoro+Isomura+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "taisei-ichikawa",
@@ -2662,7 +3843,17 @@
     "titles": 0,
     "bioSummary": "サウスポーからの鋭いフォアハンドが持ち味。国内チャレンジャー・ITFで躍動。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "市川 泰誠 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Taisei+Ichikawa+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "masamichi-imamura",
@@ -2679,7 +3870,17 @@
     "titles": 0,
     "bioSummary": "慶応大学出身。ダブルスでも活躍し、高いネットセンスと強気の攻めが光る。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "今村 昌倫 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Masamichi+Imamura+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "seita-watanabe",
@@ -2696,6 +3897,16 @@
     "titles": 0,
     "bioSummary": "安定したグラウンドストロークを軸に着実にポイントを重ねる日本の実力派。",
     "isJapanese": true,
-    "category": "atp_singles"
+    "category": "atp_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "渡邉 聖太 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Seita+Watanabe+tennis+highlights"
+      }
+    ]
   }
 ]

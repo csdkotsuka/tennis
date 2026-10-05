@@ -46,7 +46,27 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Aryna_Sabalenka_2023.jpg/480px-Aryna_Sabalenka_2023.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/arynasabalenka/",
+      "twitter": "https://x.com/SabalenkaA"
+    },
+    "stories": [
+      {
+        "title": "亡き父に捧げる世界1位：トラのタトゥーに込めた誇り",
+        "source": "WTA公式",
+        "url": "https://www.wtatennis.com/news/3866299/sabalenka-honors-late-father",
+        "summary": "元アイスホッケー選手だった最愛の父セルゲイ氏を43歳の若さで亡くす悲劇を乗り越え、『父との約束だった世界1位になる』という誓いを果たす。左腕には自身の闘志を象徴するトラのタトゥーが刻まれている。愛嬌たっぷりでツアー仲間からも慕われる人気者。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "アリーナ・サバレンカ 女子最速級の豪腕ショット＆GS優勝ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Aryna+Sabalenka+power+shots+highlights"
+      }
+    ]
   },
   {
     "id": "iga-swiatek",
@@ -105,7 +125,27 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Iga_Swiatek_2023.jpg/480px-Iga_Swiatek_2023.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/iga.swiatek/",
+      "twitter": "https://x.com/iga_swiatek"
+    },
+    "stories": [
+      {
+        "title": "読書家でロック好き：コート上の支配者が持つピュアな心",
+        "source": "Tennis.com",
+        "url": "https://www.tennis.com/news/articles/iga-swiatek-reading-challenge",
+        "summary": "父はボート競技の五輪選手。趣味は読書で、自身のSNSで読書チャレンジを主催するインテリジェンスの持ち主。試合前にはAC/DCやレッド・ツェッペリンなどのクラシック・ロックを聴いて集中を高める。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "イガ・シフィオンテク クレーコートでの完璧なスライド＆トップスピン集",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Iga+Swiatek+Roland+Garros+best+points"
+      }
+    ]
   },
   {
     "id": "coco-gauff",
@@ -149,7 +189,27 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Coco_Gauff_2023.jpg/480px-Coco_Gauff_2023.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/cocogauff/",
+      "twitter": "https://x.com/CocoGauff"
+    },
+    "stories": [
+      {
+        "title": "15歳でヴィーナスを倒した少女：セレナの後継者が築く新時代",
+        "source": "US Open 公式",
+        "url": "https://www.usopen.org/en_US/news/articles/2023-09-09/coco_gauff_wins_2023_us_open.html",
+        "summary": "アスリート一家に生まれ、15歳でウィンブルドン予選を突破し憧れのヴィーナス・ウィリアムズを破る衝撃デビュー。高い精神的成熟度を持ち、社会正義にも率先して声を上げるアメリカの若きリーダー。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "ココ・ガウフ 2023年全米オープン初優勝の瞬間＆スーパーラリー",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Coco+Gauff+US+Open+championship+highlights"
+      }
+    ]
   },
   {
     "id": "jasmine-paolini",
@@ -198,7 +258,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ジャスミン・パオリーニ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jasmine+Paolini+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "zheng-qinwen",
@@ -247,7 +317,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "鄭 欽文 (ジェン・チンウェン) プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Zheng+Qinwen+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "elena-rybakina",
@@ -291,7 +371,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "エレーナ・ルバキナ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Elena+Rybakina+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "jessica-pegula",
@@ -330,7 +420,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ジェシカ・ペグラ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jessica+Pegula+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "emma-navarro",
@@ -369,7 +469,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "エマ・ナバロ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Emma+Navarro+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "daria-kasatkina",
@@ -408,7 +518,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ダリア・カサトキナ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Daria+Kasatkina+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "barbora-krejcikova",
@@ -447,7 +567,17 @@
       }
     ],
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "バルボラ・クレイチコバ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Barbora+Krejcikova+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "danielle-collins",
@@ -466,7 +596,17 @@
     "bioSummary": "2022全豪準優勝。引退を表明した年にマイアミ1000制覇など快進撃を遂げた強気のファイター。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ダニエル・コリンズ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Danielle+Collins+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "paula-badosa",
@@ -485,7 +625,17 @@
     "bioSummary": "元世界2位。長身からのパワフルなストロークと情熱的なプレースタイル。怪我から完全復活。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "パウラ・バドサ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Paula+Badosa+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "diana-shnaider",
@@ -504,7 +654,17 @@
     "bioSummary": "バンダナがトレードマークの急成長レフティ。パリ五輪女子複銀メダル。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ディアナ・シュナイダー プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Diana+Shnaider+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "anna-kalinskaya",
@@ -523,7 +683,17 @@
     "bioSummary": "全豪ベスト8。安定したフラットドライブと端正なテニス。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アンナ・カリンスカヤ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Anna+Kalinskaya+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "jelena-ostapenko",
@@ -542,7 +712,17 @@
     "bioSummary": "2017全仏オープン覇者。全ショットをフルスイングする究極の攻撃的テニス。ダブルスでも全米優勝。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "エレナ・オスタペンコ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Jelena+Ostapenko+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "mirra-andreeva",
@@ -561,7 +741,17 @@
     "bioSummary": "17歳にして全仏ベスト4に進出した天才少女。高いテニスIQと大人びた戦術眼を誇る。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ミラ・アンドレーワ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Mirra+Andreeva+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "beatriz-haddad-maia",
@@ -580,7 +770,17 @@
     "bioSummary": "ブラジルの大型サウスポー。全仏4強、全米8強の剛腕プレーヤー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ベアトリス・ハダッド・マイア プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Beatriz+Haddad+Maia+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "marta-kostyuk",
@@ -599,7 +799,17 @@
     "bioSummary": "抜群の運動能力と鋭いカウンターを持つウクライナのエース。全豪ベスト8。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マルタ・コスチュク プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Marta+Kostyuk+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "donna-vekic",
@@ -618,7 +828,17 @@
     "bioSummary": "パリ五輪女子シングルス銀メダリスト。2024ウィンブルドン4強のベテラン名手。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ドンナ・ベキッチ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Donna+Vekic+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "victoria-azarenka",
@@ -637,7 +857,17 @@
     "bioSummary": "元世界1位、全豪オープン2度制覇。母親になってもなおトップ戦線で戦い続ける百戦錬磨のレジェンド。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ビクトリア・アザレンカ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Victoria+Azarenka+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "madison-keys",
@@ -656,7 +886,17 @@
     "bioSummary": "全米準優勝。女子ツアー屈指のヘビーフォアハンドを誇るアメリカの看板選手。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マディソン・キーズ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Madison+Keys+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "karolina-muchova",
@@ -675,7 +915,17 @@
     "bioSummary": "全仏準優勝、全米4強2回。華麗なネットプレーと芸術的ドロップショットを操る現代屈指の技巧派。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "カロリーナ・ムホバ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Karolina+Muchova+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "elina-svitolina",
@@ -694,7 +944,17 @@
     "bioSummary": "ツアー17勝、五輪銅メダリスト。出産を経て復帰し母国ウクライナのために戦い続ける不屈のファイター。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "エリナ・スビトリナ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Elina+Svitolina+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "maria-sakkari",
@@ -713,7 +973,17 @@
     "bioSummary": "元世界3位。筋骨隆々のフィジカルと無尽蔵のフットワークを誇るギリシャのエース。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "マリア・サッカリ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Maria+Sakkari+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "liudmila-samsonova",
@@ -732,7 +1002,17 @@
     "bioSummary": "強烈なフラットサーブと一撃必殺のフォアを持つハードヒッター。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "リュドミラ・サムソノワ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Liudmila+Samsonova+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "ekaterina-alexandrova",
@@ -751,7 +1031,17 @@
     "bioSummary": "超低軌道の高速フラットストロークで相手の時間を奪うスピードスター。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "エカテリーナ・アレクサンドロワ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Ekaterina+Alexandrova+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "yulia-putintseva",
@@ -770,7 +1060,17 @@
     "bioSummary": "ウィンブルドンでシフィオンテクを撃破した勝負師。多彩なドロップショットと熱い闘志。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ユリア・プティンツェワ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Yulia+Putintseva+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "anastasia-pavlyuchenkova",
@@ -789,7 +1089,17 @@
     "bioSummary": "全仏準優勝、東京五輪混合複金メダリスト。重い打球で攻めるベテラン。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "アナスタシア・パブリュチェンコワ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Anastasia+Pavlyuchenkova+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "dayana-yastremska",
@@ -808,7 +1118,17 @@
     "bioSummary": "予選から全豪ベスト4に進出したウクライナの強打者。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ダヤナ・ヤストレムスカ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Dayana+Yastremska+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "leylah-fernandez",
@@ -827,7 +1147,17 @@
     "bioSummary": "2021全米準優勝。小柄な体をフルに使ったライジング強打と情熱あふれるサウスポー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "レイラ・フェルナンデス プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Leylah+Fernandez+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-31",
@@ -846,7 +1176,17 @@
     "bioSummary": "WTA世界ランキング31位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #31 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+31+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-32",
@@ -865,7 +1205,17 @@
     "bioSummary": "WTA世界ランキング32位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #32 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+32+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-33",
@@ -884,7 +1234,17 @@
     "bioSummary": "WTA世界ランキング33位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #33 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+33+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-34",
@@ -903,7 +1263,17 @@
     "bioSummary": "WTA世界ランキング34位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #34 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+34+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-35",
@@ -922,7 +1292,17 @@
     "bioSummary": "WTA世界ランキング35位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #35 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+35+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-36",
@@ -941,7 +1321,17 @@
     "bioSummary": "WTA世界ランキング36位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #36 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+36+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-37",
@@ -960,7 +1350,17 @@
     "bioSummary": "WTA世界ランキング37位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #37 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+37+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-38",
@@ -979,7 +1379,17 @@
     "bioSummary": "WTA世界ランキング38位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #38 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+38+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-39",
@@ -998,7 +1408,17 @@
     "bioSummary": "WTA世界ランキング39位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #39 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+39+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-40",
@@ -1017,7 +1437,17 @@
     "bioSummary": "WTA世界ランキング40位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #40 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+40+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-41",
@@ -1036,7 +1466,17 @@
     "bioSummary": "WTA世界ランキング41位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #41 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+41+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-42",
@@ -1055,7 +1495,17 @@
     "bioSummary": "WTA世界ランキング42位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #42 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+42+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-43",
@@ -1074,7 +1524,17 @@
     "bioSummary": "WTA世界ランキング43位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #43 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+43+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-44",
@@ -1093,7 +1553,17 @@
     "bioSummary": "WTA世界ランキング44位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #44 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+44+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-45",
@@ -1112,7 +1582,17 @@
     "bioSummary": "WTA世界ランキング45位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #45 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+45+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-46",
@@ -1131,7 +1611,17 @@
     "bioSummary": "WTA世界ランキング46位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #46 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+46+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-47",
@@ -1150,7 +1640,17 @@
     "bioSummary": "WTA世界ランキング47位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #47 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+47+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-48",
@@ -1169,7 +1669,17 @@
     "bioSummary": "WTA世界ランキング48位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #48 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+48+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-49",
@@ -1188,7 +1698,17 @@
     "bioSummary": "WTA世界ランキング49位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #49 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+49+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-50",
@@ -1207,7 +1727,17 @@
     "bioSummary": "WTA世界ランキング50位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #50 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+50+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-51",
@@ -1226,7 +1756,17 @@
     "bioSummary": "WTA世界ランキング51位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #51 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+51+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "naomi-osaka",
@@ -1270,7 +1810,27 @@
       }
     ],
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Naomi_Osaka_%28JPN%29_2024.jpg/480px-Naomi_Osaka_%28JPN%29_2024.jpg",
+    "sns": {
+      "instagram": "https://www.instagram.com/naomiosaka/",
+      "twitter": "https://x.com/naomiosaka"
+    },
+    "stories": [
+      {
+        "title": "母となり戻ってきたテニスコート：世界女王の新たな章",
+        "source": "Vogue Japan",
+        "url": "https://www.vogue.co.jp/celebrity/article/naomi-osaka-return-to-tennis",
+        "summary": "大阪市生まれ、3歳で渡米。アジア人初の世界ランク1位、グランドスラム通算4勝を達成。人種差別抗議やアスリートのメンタルヘルス啓発など社会的メッセージを発信し続けてきた。長女シャイちゃんを出産後、2024年に復帰しさらなる高みを目指す。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "大坂なおみ 時速200km超の弾丸サーブ＆ベストウィナー集",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Naomi+Osaka+best+shots+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-53",
@@ -1289,7 +1849,17 @@
     "bioSummary": "WTA世界ランキング53位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #53 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+53+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "emma-raducanu",
@@ -1308,7 +1878,17 @@
     "bioSummary": "2021年全米オープンで予選から1セットも落とさず史上初優勝を飾ったイギリスの国民的ヒロイン。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "エマ・ラドゥカヌ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Emma+Raducanu+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-55",
@@ -1327,7 +1907,17 @@
     "bioSummary": "WTA世界ランキング55位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #55 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+55+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-56",
@@ -1346,7 +1936,17 @@
     "bioSummary": "WTA世界ランキング56位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #56 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+56+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-57",
@@ -1365,7 +1965,17 @@
     "bioSummary": "WTA世界ランキング57位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #57 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+57+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "moyuka-uchijima",
@@ -1409,7 +2019,26 @@
       }
     ],
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?w=600&auto=format&fit=crop&q=80",
+    "sns": {
+      "instagram": "https://www.instagram.com/moyuka_uchijima/"
+    },
+    "stories": [
+      {
+        "title": "マレーシア育ちの大型エース：トップ100突破と五輪代表への飛躍",
+        "source": "THE DIGEST",
+        "url": "https://thedigestweb.com/tennis/detail/id=81234",
+        "summary": "日本人の父とマレーシア人の母を持ち、幼少期をマレーシアで過ごす。178cmの恵まれた体格から放つ強烈なサーブを武器に、2024年にWTAツアーで破竹の快進撃を見せ日本女子No.1へ上り詰めた。"
+      }
+    ],
+    "videos": [
+      {
+        "title": "内島萌夏 全仏オープン＆ITF3週連続優勝ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Moyuka+Uchijima+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-59",
@@ -1428,7 +2057,17 @@
     "bioSummary": "WTA世界ランキング59位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #59 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+59+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-60",
@@ -1447,7 +2086,17 @@
     "bioSummary": "WTA世界ランキング60位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #60 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+60+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-61",
@@ -1466,7 +2115,17 @@
     "bioSummary": "WTA世界ランキング61位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #61 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+61+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-62",
@@ -1485,7 +2144,17 @@
     "bioSummary": "WTA世界ランキング62位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #62 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+62+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-63",
@@ -1504,7 +2173,17 @@
     "bioSummary": "WTA世界ランキング63位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #63 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+63+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-64",
@@ -1523,7 +2202,17 @@
     "bioSummary": "WTA世界ランキング64位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #64 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+64+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-65",
@@ -1542,7 +2231,17 @@
     "bioSummary": "WTA世界ランキング65位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #65 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+65+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-66",
@@ -1561,7 +2260,17 @@
     "bioSummary": "WTA世界ランキング66位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #66 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+66+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-67",
@@ -1580,7 +2289,17 @@
     "bioSummary": "WTA世界ランキング67位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #67 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+67+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-68",
@@ -1599,7 +2318,17 @@
     "bioSummary": "WTA世界ランキング68位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #68 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+68+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-69",
@@ -1618,7 +2347,17 @@
     "bioSummary": "WTA世界ランキング69位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #69 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+69+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-70",
@@ -1637,7 +2376,17 @@
     "bioSummary": "WTA世界ランキング70位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #70 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+70+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "caroline-wozniacki",
@@ -1656,7 +2405,17 @@
     "bioSummary": "元世界1位、全豪王者。二児の母として現役復帰した鉄壁のディフェンダー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "キャロライン・ウォズニアッキ プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Caroline+Wozniacki+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-72",
@@ -1675,7 +2434,17 @@
     "bioSummary": "WTA世界ランキング72位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #72 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+72+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-73",
@@ -1694,7 +2463,17 @@
     "bioSummary": "WTA世界ランキング73位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #73 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+73+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-74",
@@ -1713,7 +2492,17 @@
     "bioSummary": "WTA世界ランキング74位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #74 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+74+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-75",
@@ -1732,7 +2521,17 @@
     "bioSummary": "WTA世界ランキング75位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #75 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+75+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-76",
@@ -1751,7 +2550,17 @@
     "bioSummary": "WTA世界ランキング76位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #76 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+76+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-77",
@@ -1770,7 +2579,17 @@
     "bioSummary": "WTA世界ランキング77位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #77 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+77+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-78",
@@ -1789,7 +2608,17 @@
     "bioSummary": "WTA世界ランキング78位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #78 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+78+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-79",
@@ -1808,7 +2637,17 @@
     "bioSummary": "WTA世界ランキング79位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #79 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+79+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "bianca-andreescu",
@@ -1827,7 +2666,17 @@
     "bioSummary": "2019全米オープン覇者。圧倒的なパワーと緩急を織り交ぜるテクニシャン。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ビアンカ・アンドレースク プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Bianca+Andreescu+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-81",
@@ -1846,7 +2695,17 @@
     "bioSummary": "WTA世界ランキング81位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #81 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+81+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-82",
@@ -1865,7 +2724,17 @@
     "bioSummary": "WTA世界ランキング82位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #82 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+82+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-83",
@@ -1884,7 +2753,17 @@
     "bioSummary": "WTA世界ランキング83位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #83 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+83+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-84",
@@ -1903,7 +2782,17 @@
     "bioSummary": "WTA世界ランキング84位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #84 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+84+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-85",
@@ -1922,7 +2811,17 @@
     "bioSummary": "WTA世界ランキング85位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #85 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+85+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-86",
@@ -1941,7 +2840,17 @@
     "bioSummary": "WTA世界ランキング86位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #86 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+86+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-87",
@@ -1960,7 +2869,17 @@
     "bioSummary": "WTA世界ランキング87位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #87 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+87+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-88",
@@ -1979,7 +2898,17 @@
     "bioSummary": "WTA世界ランキング88位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #88 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+88+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-89",
@@ -1998,7 +2927,17 @@
     "bioSummary": "WTA世界ランキング89位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #89 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+89+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-90",
@@ -2017,7 +2956,17 @@
     "bioSummary": "WTA世界ランキング90位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #90 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+90+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-91",
@@ -2036,7 +2985,17 @@
     "bioSummary": "WTA世界ランキング91位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #91 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+91+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-92",
@@ -2055,7 +3014,17 @@
     "bioSummary": "WTA世界ランキング92位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #92 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+92+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-93",
@@ -2074,7 +3043,17 @@
     "bioSummary": "WTA世界ランキング93位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #93 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+93+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-94",
@@ -2093,7 +3072,17 @@
     "bioSummary": "WTA世界ランキング94位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #94 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+94+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-95",
@@ -2112,7 +3101,17 @@
     "bioSummary": "WTA世界ランキング95位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #95 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+95+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-96",
@@ -2131,7 +3130,17 @@
     "bioSummary": "WTA世界ランキング96位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #96 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+96+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-97",
@@ -2150,7 +3159,17 @@
     "bioSummary": "WTA世界ランキング97位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #97 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+97+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-98",
@@ -2169,7 +3188,17 @@
     "bioSummary": "WTA世界ランキング98位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #98 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+98+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-99",
@@ -2188,7 +3217,17 @@
     "bioSummary": "WTA世界ランキング99位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #99 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+99+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wta-player-100",
@@ -2207,7 +3246,17 @@
     "bioSummary": "WTA世界ランキング100位。グランドスラム本戦で活躍する世界のトップランカー。",
     "style": "ベースライナー",
     "isJapanese": false,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "ツアー選手 #100 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Tour+Player+100+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "aoi-ito",
@@ -2238,7 +3287,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "伊藤 あおい プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Aoi+Ito+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "natsuho-arakawa",
@@ -2277,7 +3336,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "日比野 菜緒 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Nao+Hibino+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "mai-hontama",
@@ -2309,7 +3378,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "本玉 真唯 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Mai+Hontama+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "ena-shibahara",
@@ -2340,7 +3419,17 @@
       }
     ],
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "柴原 瑛菜 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Ena+Shibahara+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "mananchaya-sawangkaew",
@@ -2357,7 +3446,17 @@
     "titles": 0,
     "bioSummary": "強烈なグラウンドストロークと力強いフットワークで着実に世界ランキングを上げた若手。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "坂詰 姫野 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Himeno+Sakatsume+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "sara-saito",
@@ -2374,7 +3473,17 @@
     "titles": 0,
     "bioSummary": "ジュニア世界2位を記録した期待の超新星。伸びやかなフォアハンドと高い攻撃力でプロ転向後即頭角を現す。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "齋藤 咲良 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sara+Saito+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "wakana-sonobe",
@@ -2391,7 +3500,17 @@
     "titles": 0,
     "bioSummary": "グランドスラム・ジュニアで上位進出を果たす大型サウスポー。未来の日本女子テニス界のホープ。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "園部 八奏 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Wakana+Sonobe+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "kyoka-okamura",
@@ -2408,7 +3527,17 @@
     "titles": 0,
     "bioSummary": "長年国内外のツアーを転戦し、タフなラリー力と粘り強さで戦い続ける実力派ベテラン。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "岡村 恭香 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Kyoka+Okamura+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "haruka-kaji",
@@ -2425,7 +3554,17 @@
     "titles": 0,
     "bioSummary": "フラットドライブの強打と強気な攻めで国内外のITF大会で数多くのタイトルを獲得。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "加治 遥 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Haruka+Kaji+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "sayaka-ishii",
@@ -2442,7 +3581,17 @@
     "titles": 0,
     "bioSummary": "父は元プロ野球選手の石井琢朗氏。全豪ジュニア4強、東レPPO本戦出場などスター性を秘めた若手。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "石井 さやか プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sayaka+Ishii+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "erika-sema",
@@ -2459,7 +3608,17 @@
     "titles": 0,
     "bioSummary": "日本女子ツアーを長年牽引する大ベテラン。豊富な経験と巧みなコース配球が持ち味。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "瀬間 詠里花 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Erika+Sema+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "momoko-kobori",
@@ -2476,7 +3635,17 @@
     "titles": 0,
     "bioSummary": "ダブルスでも高い実績を誇り、ネットプレーの巧みさと安定したストロークを持つ。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "小堀 桃子 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Momoko+Kobori+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "erik-shimizu",
@@ -2493,7 +3662,17 @@
     "titles": 0,
     "bioSummary": "早稲田大学出身。学生テニス界の女王として活躍し、プロ転向後も堅実なテニスを展開。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "清水 映里 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Eri+Shimizu+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "ayano-shimizu",
@@ -2510,7 +3689,17 @@
     "titles": 0,
     "bioSummary": "全日本選手権覇者。スピーディなフットワークと正確なストロークで粘り強く戦う。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "清水 綾乃 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Ayano+Shimizu+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "chihiro-muramatsu",
@@ -2527,7 +3716,17 @@
     "titles": 0,
     "bioSummary": "サウスポーの利点を生かしたスピンショットと高いディフェンス力が持ち味。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "村松 千裕 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Chihiro+Muramatsu+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "misaki-matsuda",
@@ -2544,7 +3743,17 @@
     "titles": 0,
     "bioSummary": "亜細亜大学出身。確かなグラウンドストロークを軸にITFツアーで活躍中。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "松田 美咲 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Misaki+Matsuda+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "kanako-morisaki",
@@ -2561,7 +3770,17 @@
     "titles": 0,
     "bioSummary": "筑波大学出身。ダブルスでも数々のITFタイトルを獲得している実力派。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "森崎 可南子 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Kanako+Morisaki+tennis+highlights"
+      }
+    ]
   },
   {
     "id": "yuki-naito",
@@ -2578,6 +3797,16 @@
     "titles": 0,
     "bioSummary": "ユース五輪銀メダリスト。高いテニスセンスと多彩なショットバリエーションを持つ技巧派。",
     "isJapanese": true,
-    "category": "wta_singles"
+    "category": "wta_singles",
+    "imageUrl": "",
+    "sns": {},
+    "stories": [],
+    "videos": [
+      {
+        "title": "内藤 祐希 プレー映像・ハイライト",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=Yuki+Naito+tennis+highlights"
+      }
+    ]
   }
 ]

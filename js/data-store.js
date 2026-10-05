@@ -60,13 +60,13 @@ class TennisDataStore {
       }
     }
 
-    // 2. ローカルキャッシュ (localStorage) の確認
-    const localKey = `tennis_data_${categoryKey}`;
+    // 2. ローカルキャッシュ (localStorage) の確認 (v2: メディア・記事対応版)
+    const localKey = `tennis_data_v2_${categoryKey}`;
     const cached = localStorage.getItem(localKey);
     if (cached) {
       try {
         const parsed = JSON.parse(cached);
-        if (Array.isArray(parsed) && parsed.length > 0) {
+        if (Array.isArray(parsed) && parsed.length > 0 && parsed[0].videos) {
           this.categories[categoryKey].data = parsed;
           return parsed;
         }
@@ -171,7 +171,7 @@ class TennisDataStore {
       list.push(updatedPlayer);
     }
     // ローカルストレージに保存
-    localStorage.setItem(`tennis_data_${categoryKey}`, JSON.stringify(list));
+    localStorage.setItem(`tennis_data_v2_${categoryKey}`, JSON.stringify(list));
     return true;
   }
 
@@ -213,6 +213,7 @@ class TennisDataStore {
   async resetToDefault() {
     for (const key of Object.keys(this.categories)) {
       localStorage.removeItem(`tennis_data_${key}`);
+      localStorage.removeItem(`tennis_data_v2_${key}`);
     }
     await this.loadAllCategories();
   }
