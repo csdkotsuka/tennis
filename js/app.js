@@ -334,6 +334,20 @@ function renderContent() {
   }
 }
 
+// 安全なアバター生成（下地にイニシャルを置き、画像を上に重ねる。画像読み込み失敗時はimgのみremoveし、親のDOMや名前には一切影響を与えない）
+function createAvatarHtml(p, sizeClass = "w-12 h-12", textClass = "text-base") {
+  const initial = (p.nameJa || p.name || "?").trim().charAt(0);
+  const imgTag = p.imageUrl ? 
+    `<img src="${p.imageUrl}" alt="${p.nameJa || p.name}" class="absolute inset-0 w-full h-full object-cover z-10" referrerpolicy="no-referrer" loading="lazy" onerror="this.remove()">` : '';
+
+  return `
+    <div class="${sizeClass} rounded-full bg-emerald-100 border border-emerald-300 text-emerald-800 font-bold flex items-center justify-center ${textClass} shadow-sm flex-shrink-0 relative overflow-hidden select-none">
+      <span>${initial}</span>
+      ${imgTag}
+    </div>
+  `;
+}
+
 // カードビュー描画
 function renderCards(players) {
   elements.cardContainer.innerHTML = "";
@@ -347,10 +361,7 @@ function renderCards(players) {
     else if (p.rank <= 3) rankBadgeClass = "rank-badge-top3";
     else if (p.rank <= 10) rankBadgeClass = "rank-badge-top10";
 
-    // アバターHTML
-    const avatarImg = p.imageUrl ? 
-      `<img src="${p.imageUrl}" alt="${p.nameJa || p.name}" class="w-12 h-12 rounded-full object-cover border border-slate-200 shadow-sm flex-shrink-0" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<div class=\\'w-12 h-12 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-800 font-bold flex items-center justify-center text-sm shadow-sm\\'>${(p.nameJa || p.name).charAt(0)}</div>';">` :
-      `<div class="w-12 h-12 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-800 font-bold flex items-center justify-center text-sm shadow-sm flex-shrink-0">${(p.nameJa || p.name).charAt(0)}</div>`;
+    const avatarHtml = createAvatarHtml(p, "w-12 h-12", "text-base");
 
     card.innerHTML = `
       <div>
@@ -366,8 +377,8 @@ function renderCards(players) {
         </div>
 
         <div class="flex items-center gap-3 mb-2.5">
-          ${avatarImg}
-          <div class="min-w-0">
+          ${avatarHtml}
+          <div class="min-w-0 flex-1">
             <div class="flex items-baseline gap-1.5">
               <span class="text-lg">${p.flag || '🏳️'}</span>
               <h3 class="text-base font-bold text-slate-900 group-hover:text-emerald-700 leading-tight truncate">
@@ -414,8 +425,7 @@ function renderTable(players) {
     else if (p.rank <= 3) rankBadgeClass = "rank-badge-top3";
     else if (p.rank <= 10) rankBadgeClass = "rank-badge-top10";
 
-    const miniAvatar = p.imageUrl ?
-      `<img src="${p.imageUrl}" alt="" class="w-7 h-7 rounded-full object-cover border border-slate-200" onerror="this.style.display='none'">` : '';
+    const tableAvatar = createAvatarHtml(p, "w-8 h-8", "text-xs");
 
     tr.innerHTML = `
       <td class="py-3 px-4">
@@ -425,7 +435,7 @@ function renderTable(players) {
       </td>
       <td class="py-3 px-4">
         <div class="flex items-center gap-2.5">
-          ${miniAvatar}
+          ${tableAvatar}
           <span class="text-base">${p.flag || '🏳️'}</span>
           <div>
             <div class="font-bold text-slate-900 text-sm flex items-center gap-1.5">
@@ -470,15 +480,7 @@ function openPlayerModal(index) {
   elements.modalNextBtn.disabled = index === currentFilteredList.length - 1;
 
   // 顔写真アバターHTML
-  const modalAvatarHtml = p.imageUrl ? `
-    <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-emerald-500 overflow-hidden flex-shrink-0 shadow-md">
-      <img src="${p.imageUrl}" alt="${p.nameJa || p.name}" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\\'w-full h-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-2xl\\'>${(p.nameJa || p.name).charAt(0)}</div>'">
-    </div>
-  ` : `
-    <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-emerald-100 border-2 border-emerald-500 text-emerald-800 font-bold flex items-center justify-center text-2xl shadow-md flex-shrink-0">
-      ${(p.nameJa || p.name).charAt(0)}
-    </div>
-  `;
+  const modalAvatarHtml = createAvatarHtml(p, "w-16 h-16 sm:w-20 sm:h-20", "text-2xl");
 
   // SNSリンクHTML
   let snsHtml = "";

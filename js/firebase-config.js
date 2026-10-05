@@ -39,6 +39,13 @@ class FirebaseManager {
     localStorage.setItem("tennis_tracker_firebase_config", JSON.stringify(this.config));
   }
 
+  clearConfig() {
+    this.config = { ...DEFAULT_FIREBASE_CONFIG };
+    localStorage.removeItem("tennis_tracker_firebase_config");
+    this.isInitialized = false;
+    this.db = null;
+  }
+
   hasValidConfig() {
     return Boolean(this.config && this.config.apiKey && this.config.projectId);
   }
