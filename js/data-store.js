@@ -78,7 +78,8 @@ class TennisDataStore {
     // 3. 静的JSONファイルからフェッチ
     try {
       const fileName = this.categories[categoryKey].file;
-      const res = await fetch(`./data/${fileName}?t=${Date.now()}`);
+      const dataUrl = new URL(`../data/${fileName}?t=${Date.now()}`, import.meta.url).href;
+      const res = await fetch(dataUrl);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       this.categories[categoryKey].data = data;
