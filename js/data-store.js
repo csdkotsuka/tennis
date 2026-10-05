@@ -36,32 +36,40 @@ class TennisDataStore {
 
   async loadCategory(categoryKey) {
     if (!this.categories[categoryKey]) return [];
+    const localKey = `tennis_data_v3_${categoryKey}`;
 
-    // 1. Firebaseが接続されている場合はFirestoreから読み込みを試みる
+    // 1. Firebaseが接続されている場合はFirestoreから読み込み
     if (this.dataSource === "firebase") {
       try {
-        const { collection, getDocs } = await import("https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js");
-        const db = firebaseManager.getDb();
-        if (db) {
-          const colRef = collection(db, categoryKey);
-          const snapshot = await getDocs(colRef);
-          if (!snapshot.empty) {
-            const list = [];
-            snapshot.forEach((doc) => {
-              list.push({ id: doc.id, ...doc.data() });
-            });
-            this.categories[categoryKey].data = list;
-            console.log(`Loaded ${list.length} items from Firestore for ${categoryKey}`);
-            return list;
+        let list = [];
+        if (firebaseManager.mode === "sdk") {
+          const { collection, getDocs } = await import("https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js");
+          const db = firebaseManager.getDb();
+          if (db) {
+            const colRef = collection(db, categoryKey);
+            const snapshot = await getDocs(colRef);
+            if (!snapshot.empty) {
+              snapshot.forEach((doc) => {
+                list.push({ id: doc.id, ...doc.data() });
+              });
+            }
           }
+        } else if (firebaseManager.mode === "rest") {
+          list = await firebaseManager.fetchCollection(categoryKey);
+        }
+
+        if (list && list.length > 0) {
+          this.categories[categoryKey].data = list;
+          localStorage.setItem(localKey, JSON.stringify(list));
+          console.log(`✅ Loaded ${list.length} items from Firestore for ${categoryKey}`);
+          return list;
         }
       } catch (err) {
-        console.warn(`Firestore read failed for ${categoryKey}, falling back to local JSON:`, err);
+        console.warn(`Firestore read failed for ${categoryKey}, falling back to local:`, err);
       }
     }
 
     // 2. ローカルキャッシュ (localStorage) の確認 (v3: 写真・メディア最新版)
-    const localKey = `tennis_data_v3_${categoryKey}`;
     const cached = localStorage.getItem(localKey);
     if (cached) {
       try {
@@ -160,8 +168,8 @@ class TennisDataStore {
     return null;
   }
 
-  // 選手データのローカル更新
-  updatePlayer(categoryKey, updatedPlayer) {
+  // 選手データの更新（Firestoreへの保存 & ローカルキャッシュの更新）
+  async updatePlayer(categoryKey, updatedPlayer) {
     if (!this.categories[categoryKey]) return false;
     const list = this.categories[categoryKey].data;
     const index = list.findIndex(p => p.id === updatedPlayer.id);
@@ -172,16 +180,33 @@ class TennisDataStore {
     }
     // ローカルストレージに保存
     localStorage.setItem(`tennis_data_v3_${categoryKey}`, JSON.stringify(list));
+
+    // Firestoreへの書き込み
+    if (this.dataSource === "firebase") {
+      try {
+        const docId = updatedPlayer.id || `item_${updatedPlayer.rank || Date.now()}`;
+        if (firebaseManager.mode === "sdk") {
+          const { doc, setDoc } = await import("https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js");
+          const db = firebaseManager.getDb();
+          if (db) {
+            await setDoc(doc(db, categoryKey, docId), updatedPlayer, { merge: true });
+          }
+        } else if (firebaseManager.mode === "rest") {
+          await firebaseManager.saveDocument(categoryKey, docId, updatedPlayer);
+        }
+        console.log(`✅ Firestore updated for ${categoryKey}/${docId}`);
+      } catch (e) {
+        console.error("Failed to save to Firestore:", e);
+      }
+    }
     return true;
   }
 
-  // Firestoreへ現在保持している全データを一括アップロード（シード機能）
+  // Firestoreへ現在保持している全データを一括アップロード（シード・再同期）
   async syncAllToFirestore() {
     if (!firebaseManager.isInitialized) {
-      throw new Error("Firebaseが初期化されていません。先に設定を入力してください。");
+      throw new Error("Firebaseが初期化されていません。");
     }
-    const { doc, setDoc } = await import("https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js");
-    const db = firebaseManager.getDb();
     const categories = Object.keys(this.categories);
     let totalSynced = 0;
 
@@ -189,7 +214,13 @@ class TennisDataStore {
       const items = this.categories[catKey].data;
       for (const item of items) {
         const docId = item.id || `item_${item.rank || Math.random().toString(36).substring(7)}`;
-        await setDoc(doc(db, catKey, docId), item, { merge: true });
+        if (firebaseManager.mode === "sdk") {
+          const { doc, setDoc } = await import("https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js");
+          const db = firebaseManager.getDb();
+          await setDoc(doc(db, catKey, docId), item, { merge: true });
+        } else {
+          await firebaseManager.saveDocument(catKey, docId, item);
+        }
         totalSynced++;
       }
     }

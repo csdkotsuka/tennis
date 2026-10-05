@@ -16,8 +16,15 @@
         </a>
         <h1 class="text-base font-bold">🎾 選手データ編集・更新コンソール</h1>
       </div>
-      <div class="flex items-center gap-2">
-        <button id="export-btn" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3 py-1.5 rounded shadow">
+      <div class="flex items-center gap-2 sm:gap-3 flex-wrap">
+        <div id="admin-fb-status" class="flex items-center gap-1.5 bg-slate-800 border border-slate-700 px-2.5 py-1 rounded text-[11px] text-slate-300">
+          <span id="admin-fb-dot" class="w-2 h-2 rounded-full bg-amber-400"></span>
+          <span id="admin-fb-text">接続確認中...</span>
+        </div>
+        <button id="admin-sync-btn" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-3 py-1.5 rounded shadow text-xs flex items-center gap-1">
+          <span>🚀</span> <span class="hidden sm:inline">Firestoreへ全同期</span>
+        </button>
+        <button id="export-btn" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3 py-1.5 rounded shadow text-xs">
           JSONダウンロード
         </button>
       </div>
@@ -282,6 +289,7 @@
 
     async function initAdmin() {
       await tennisStore.init();
+      updateAdminFirebaseStatus();
       loadCategoryList();
 
       catSelect.addEventListener("change", (e) => {
@@ -305,6 +313,36 @@
       exportBtn.addEventListener("click", () => {
         tennisStore.exportCategoryJson(currentCategory);
       });
+
+      const syncBtn = document.getElementById("admin-sync-btn");
+      if (syncBtn) {
+        syncBtn.addEventListener("click", async () => {
+          if (!confirm("現在のすべてのデータをFirestoreに一括保存（シード・上書き同期）しますか？")) return;
+          try {
+            syncBtn.disabled = true;
+            syncBtn.textContent = "同期中...";
+            const count = await tennisStore.syncAllToFirestore();
+            alert(`✅ 完了！ 合計 ${count} 件のデータをFirestoreに同期しました。`);
+          } catch (e) {
+            alert("❌ 同期失敗: " + e.message);
+          } finally {
+            syncBtn.disabled = false;
+            syncBtn.innerHTML = `<span>🚀</span> <span class="hidden sm:inline">Firestoreへ全同期</span>`;
+          }
+        });
+      }
+    }
+
+    function updateAdminFirebaseStatus() {
+      const dot = document.getElementById("admin-fb-dot");
+      const text = document.getElementById("admin-fb-text");
+      if (firebaseManager.isInitialized) {
+        dot.className = "w-2 h-2 rounded-full bg-emerald-400";
+        text.textContent = `Firestore 接続中 (${firebaseManager.getProjectId()})`;
+      } else {
+        dot.className = "w-2 h-2 rounded-full bg-amber-400";
+        text.textContent = "ローカルJSONモード";
+      }
     }
 
     function loadCategoryList() {
@@ -517,9 +555,22 @@
         }
       };
 
-      tennisStore.updatePlayer(currentCategory, player);
-      alert("✅ 選手情報を保存しました！");
-      selectPlayer(player);
+      const submitBtn = document.querySelector("#player-edit-form button[type='submit']");
+      const origText = submitBtn.textContent;
+      submitBtn.textContent = "保存中...";
+      submitBtn.disabled = true;
+
+      try {
+        await tennisStore.updatePlayer(currentCategory, player);
+        const sourceLabel = tennisStore.dataSource === "firebase" ? "（🔥 Firestoreに反映済み）" : "（ローカル保存）";
+        alert(`✅ 選手情報を保存しました！${sourceLabel}`);
+        selectPlayer(player);
+      } catch (err) {
+        alert("❌ 保存に失敗しました: " + err.message);
+      } finally {
+        submitBtn.textContent = origText;
+        submitBtn.disabled = false;
+      }
     }
 
     window.addEventListener("DOMContentLoaded", initAdmin);

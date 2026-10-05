@@ -58,6 +58,7 @@ async function initApp() {
   
   // データストア初期化
   await tennisStore.init();
+  updateFirebaseStatusBadge();
   updateCategoryView();
 }
 
@@ -751,12 +752,12 @@ function closeFirebaseModal() {
 }
 
 function updateFirebaseStatusBadge() {
-  if (firebaseManager.hasValidConfig() && firebaseManager.isInitialized) {
+  if (firebaseManager.isInitialized) {
     elements.firebaseStatusIndicator.className = "w-2.5 h-2.5 rounded-full bg-emerald-400";
-    elements.firebaseStatusText.textContent = "Firestore 接続中";
+    elements.firebaseStatusText.textContent = `Firestore 接続中 (${firebaseManager.getProjectId()})`;
   } else {
     elements.firebaseStatusIndicator.className = "w-2.5 h-2.5 rounded-full bg-amber-400";
-    elements.firebaseStatusText.textContent = "ローカルJSONモード (Firebase未設定)";
+    elements.firebaseStatusText.textContent = "ローカルJSONモード";
   }
 }
 
